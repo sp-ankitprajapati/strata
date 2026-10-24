@@ -1,0 +1,38 @@
+{
+  "scope": "Three manually selected development regions; PSM 11",
+  "normalization": "English lowercase letters/digits; punctuation removed; whitespace collapsed; spaces included in CER",
+  "cer": 0.02631578947368421,
+  "wer": 0.14285714285714285,
+  "results": [
+    {
+      "region": "stucco_on_brick",
+      "reference": "STUCCO ON BRICK",
+      "raw_prediction": "STUCCO\n\nON BRICK",
+      "normalized_prediction": "stucco on brick",
+      "character_edits": 0,
+      "reference_characters": 15,
+      "word_edits": 0,
+      "reference_words": 3
+    },
+    {
+      "region": "iron_rail",
+      "reference": "Iron Rail",
+      "raw_prediction": "ron\n\nRail",
+      "normalized_prediction": "ron rail",
+      "character_edits": 1,
+      "reference_characters": 9,
+      "word_edits": 1,
+      "reference_words": 2
+    },
+    {
+      "region": "concrete_steps",
+      "reference": "Concrete Steps",
+      "raw_prediction": "-\u201cConcrete Steps.",
+      "normalized_prediction": "concrete steps",
+      "character_edits": 0,
+      "reference_characters": 14,
+      "word_edits": 0,
+      "reference_words": 2
+    }
+  ]
+}

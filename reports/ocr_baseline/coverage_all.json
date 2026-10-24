@@ -1,0 +1,161 @@
+{
+  "scope": "Six manually selected development regions",
+  "matching_rule": "Exact material identity and candidate box center inside the reference region",
+  "reference_keyword_occurrences": 8,
+  "matched_counts": {
+    "baseline": 3,
+    "tiled": 3
+  },
+  "regions": [
+    {
+      "region": "central_stucco_on_brick",
+      "box": [
+        1551,
+        1988,
+        2143,
+        2164
+      ],
+      "expected": [
+        "brick",
+        "stucco"
+      ],
+      "baseline": {
+        "matched": [
+          "brick",
+          "stucco"
+        ],
+        "missed": []
+      },
+      "tiled": {
+        "matched": [
+          "brick",
+          "stucco"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "region": "iron_rail",
+      "box": [
+        2469,
+        1911,
+        2865,
+        2025
+      ],
+      "expected": [
+        "iron"
+      ],
+      "baseline": {
+        "matched": [],
+        "missed": [
+          "iron"
+        ]
+      },
+      "tiled": {
+        "matched": [],
+        "missed": [
+          "iron"
+        ]
+      }
+    },
+    {
+      "region": "concrete_steps",
+      "box": [
+        2282,
+        3040,
+        3121,
+        3154
+      ],
+      "expected": [
+        "concrete"
+      ],
+      "baseline": {
+        "matched": [
+          "concrete"
+        ],
+        "missed": []
+      },
+      "tiled": {
+        "matched": [
+          "concrete"
+        ],
+        "missed": []
+      }
+    },
+    {
+      "region": "central_door_glass",
+      "box": [
+        2492,
+        2311,
+        2795,
+        2458
+      ],
+      "expected": [
+        "glass"
+      ],
+      "baseline": {
+        "matched": [],
+        "missed": [
+          "glass"
+        ]
+      },
+      "tiled": {
+        "matched": [],
+        "missed": [
+          "glass"
+        ]
+      }
+    },
+    {
+      "region": "left_tin_roof",
+      "box": [
+        93,
+        1365,
+        722,
+        1505
+      ],
+      "expected": [
+        "tin"
+      ],
+      "baseline": {
+        "matched": [],
+        "missed": [
+          "tin"
+        ]
+      },
+      "tiled": {
+        "matched": [],
+        "missed": [
+          "tin"
+        ]
+      }
+    },
+    {
+      "region": "upper_right_stucco_on_brick",
+      "box": [
+        3400,
+        596,
+        4076,
+        719
+      ],
+      "expected": [
+        "brick",
+        "stucco"
+      ],
+      "baseline": {
+        "matched": [],
+        "missed": [
+          "brick",
+          "stucco"
+        ]
+      },
+      "tiled": {
+        "matched": [],
+        "missed": [
+          "brick",
+          "stucco"
+        ]
+      }
+    }
+  ]
+}

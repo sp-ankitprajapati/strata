@@ -1,0 +1,132 @@
+{
+  "source_image": "drawing_crop.png",
+  "source_dimensions": [
+    4658,
+    3330
+  ],
+  "tile_size": 1600,
+  "minimum_overlap": 200,
+  "coordinate_space": "drawing_crop.png pixels",
+  "tiles": [
+    {
+      "tile_id": "tile_001",
+      "filename": "tile_001.png",
+      "box_in_crop": [
+        0,
+        0,
+        1600,
+        1600
+      ]
+    },
+    {
+      "tile_id": "tile_002",
+      "filename": "tile_002.png",
+      "box_in_crop": [
+        1019,
+        0,
+        2619,
+        1600
+      ]
+    },
+    {
+      "tile_id": "tile_003",
+      "filename": "tile_003.png",
+      "box_in_crop": [
+        2039,
+        0,
+        3639,
+        1600
+      ]
+    },
+    {
+      "tile_id": "tile_004",
+      "filename": "tile_004.png",
+      "box_in_crop": [
+        3058,
+        0,
+        4658,
+        1600
+      ]
+    },
+    {
+      "tile_id": "tile_005",
+      "filename": "tile_005.png",
+      "box_in_crop": [
+        0,
+        865,
+        1600,
+        2465
+      ]
+    },
+    {
+      "tile_id": "tile_006",
+      "filename": "tile_006.png",
+      "box_in_crop": [
+        1019,
+        865,
+        2619,
+        2465
+      ]
+    },
+    {
+      "tile_id": "tile_007",
+      "filename": "tile_007.png",
+      "box_in_crop": [
+        2039,
+        865,
+        3639,
+        2465
+      ]
+    },
+    {
+      "tile_id": "tile_008",
+      "filename": "tile_008.png",
+      "box_in_crop": [
+        3058,
+        865,
+        4658,
+        2465
+      ]
+    },
+    {
+      "tile_id": "tile_009",
+      "filename": "tile_009.png",
+      "box_in_crop": [
+        0,
+        1730,
+        1600,
+        3330
+      ]
+    },
+    {
+      "tile_id": "tile_010",
+      "filename": "tile_010.png",
+      "box_in_crop": [
+        1019,
+        1730,
+        2619,
+        3330
+      ]
+    },
+    {
+      "tile_id": "tile_011",
+      "filename": "tile_011.png",
+      "box_in_crop": [
+        2039,
+        1730,
+        3639,
+        3330
+      ]
+    },
+    {
+      "tile_id": "tile_012",
+      "filename": "tile_012.png",
+      "box_in_crop": [
+        3058,
+        1730,
+        4658,
+        3330
+      ]
+    }
+  ]
+}

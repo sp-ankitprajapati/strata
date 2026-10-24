@@ -1,0 +1,435 @@
+{
+  "candidates": [
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        2002,
+        865,
+        2378,
+        928
+      ],
+      "confidence": 0.28806527856813585,
+      "id": 25,
+      "materials": [
+        "stucco"
+      ],
+      "polygon_in_crop": [
+        [
+          2002,
+          865
+        ],
+        [
+          2378,
+          865
+        ],
+        [
+          2378,
+          928
+        ],
+        [
+          2002,
+          928
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          983,
+          0
+        ],
+        [
+          1359,
+          0
+        ],
+        [
+          1359,
+          63
+        ],
+        [
+          983,
+          63
+        ]
+      ],
+      "text": "Stucco r",
+      "tile_id": "tile_006"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        1576,
+        1998,
+        1876,
+        2090
+      ],
+      "confidence": 0.7098313887326366,
+      "id": 29,
+      "materials": [
+        "stucco"
+      ],
+      "polygon_in_crop": [
+        [
+          1576,
+          1998
+        ],
+        [
+          1876,
+          1998
+        ],
+        [
+          1876,
+          2090
+        ],
+        [
+          1576,
+          2090
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          557,
+          1133
+        ],
+        [
+          857,
+          1133
+        ],
+        [
+          857,
+          1225
+        ],
+        [
+          557,
+          1225
+        ]
+      ],
+      "text": "Stucco",
+      "tile_id": "tile_006"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        1890,
+        2080,
+        2132,
+        2146
+      ],
+      "confidence": 0.9439514276892833,
+      "id": 31,
+      "materials": [
+        "brick"
+      ],
+      "polygon_in_crop": [
+        [
+          1890,
+          2080
+        ],
+        [
+          2132,
+          2080
+        ],
+        [
+          2132,
+          2146
+        ],
+        [
+          1890,
+          2146
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          871,
+          1215
+        ],
+        [
+          1113,
+          1215
+        ],
+        [
+          1113,
+          1281
+        ],
+        [
+          871,
+          1281
+        ]
+      ],
+      "text": "Brick",
+      "tile_id": "tile_006"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        4063,
+        2344,
+        4282,
+        2400
+      ],
+      "confidence": 0.7190065239322103,
+      "id": 63,
+      "materials": [
+        "stone"
+      ],
+      "polygon_in_crop": [
+        [
+          4063,
+          2344
+        ],
+        [
+          4282,
+          2344
+        ],
+        [
+          4282,
+          2400
+        ],
+        [
+          4063,
+          2400
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          1005,
+          1479
+        ],
+        [
+          1224,
+          1479
+        ],
+        [
+          1224,
+          1535
+        ],
+        [
+          1005,
+          1535
+        ]
+      ],
+      "text": "STONE",
+      "tile_id": "tile_008"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        747,
+        2829,
+        953,
+        2891
+      ],
+      "confidence": 0.7640906993536293,
+      "id": 81,
+      "materials": [
+        "stone"
+      ],
+      "polygon_in_crop": [
+        [
+          747,
+          2829
+        ],
+        [
+          953,
+          2829
+        ],
+        [
+          953,
+          2891
+        ],
+        [
+          747,
+          2891
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          747,
+          1099
+        ],
+        [
+          953,
+          1099
+        ],
+        [
+          953,
+          1161
+        ],
+        [
+          747,
+          1161
+        ]
+      ],
+      "text": "SToNE",
+      "tile_id": "tile_009"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        1578,
+        2001,
+        1875,
+        2082
+      ],
+      "confidence": 0.8922523112754642,
+      "id": 88,
+      "materials": [
+        "stucco"
+      ],
+      "polygon_in_crop": [
+        [
+          1578,
+          2001
+        ],
+        [
+          1875,
+          2001
+        ],
+        [
+          1875,
+          2082
+        ],
+        [
+          1578,
+          2082
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          559,
+          271
+        ],
+        [
+          856,
+          271
+        ],
+        [
+          856,
+          352
+        ],
+        [
+          559,
+          352
+        ]
+      ],
+      "text": "Stucco",
+      "tile_id": "tile_010"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        1890,
+        2079,
+        2134,
+        2145
+      ],
+      "confidence": 0.869084086090486,
+      "id": 90,
+      "materials": [
+        "brick"
+      ],
+      "polygon_in_crop": [
+        [
+          1890,
+          2079
+        ],
+        [
+          2134,
+          2079
+        ],
+        [
+          2134,
+          2145
+        ],
+        [
+          1890,
+          2145
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          871,
+          349
+        ],
+        [
+          1115,
+          349
+        ],
+        [
+          1115,
+          415
+        ],
+        [
+          871,
+          415
+        ]
+      ],
+      "text": "Brick",
+      "tile_id": "tile_010"
+    },
+    {
+      "asbestos_status": "unresolved",
+      "box": [
+        4064,
+        2346,
+        4282,
+        2400
+      ],
+      "confidence": 0.921061624628205,
+      "id": 125,
+      "materials": [
+        "stone"
+      ],
+      "polygon_in_crop": [
+        [
+          4064,
+          2346
+        ],
+        [
+          4282,
+          2346
+        ],
+        [
+          4282,
+          2400
+        ],
+        [
+          4064,
+          2400
+        ]
+      ],
+      "polygon_in_tile": [
+        [
+          1006,
+          616
+        ],
+        [
+          1224,
+          616
+        ],
+        [
+          1224,
+          670
+        ],
+        [
+          1006,
+          670
+        ]
+      ],
+      "text": "STONE",
+      "tile_id": "tile_012"
+    }
+  ],
+  "coordinate_space": "drawing_crop.png pixels",
+  "duplicates_removed": false,
+  "easyocr_version": "1.7.2",
+  "engine": "EasyOCR",
+  "settings": {
+    "batch_size": 1,
+    "device": "cuda",
+    "languages": [
+      "en"
+    ],
+    "paragraph": false,
+    "workers": 0
+  },
+  "source_image": "drawing_crop.png",
+  "torch_version": "2.11.0+cu128"
+}

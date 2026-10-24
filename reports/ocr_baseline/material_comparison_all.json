@@ -1,0 +1,276 @@
+{
+  "method": "Material candidates from multiple OCR pipelines in shared drawing coordinates",
+  "vocabulary": [
+    "brick",
+    "concrete",
+    "glass",
+    "iron",
+    "stone",
+    "stucco",
+    "tin"
+  ],
+  "baseline_mentions": [
+    {
+      "material": "stucco",
+      "raw_text": "STUCCO",
+      "confidence": 70.957558,
+      "box": [
+        1585,
+        2011,
+        1861,
+        2071
+      ],
+      "source_word_id": 95,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "brick",
+      "raw_text": "Brick.",
+      "confidence": 4.850533,
+      "box": [
+        1895,
+        2086,
+        2122,
+        2137
+      ],
+      "source_word_id": 103,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stucco",
+      "raw_text": "Stucco",
+      "confidence": 32.359253,
+      "box": [
+        3377,
+        2295,
+        3637,
+        2343
+      ],
+      "source_word_id": 140,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stone",
+      "raw_text": "STONE",
+      "confidence": 93.113098,
+      "box": [
+        752,
+        2835,
+        945,
+        2882
+      ],
+      "source_word_id": 192,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "concrete",
+      "raw_text": "Concrete",
+      "confidence": 95.630333,
+      "box": [
+        2325,
+        3061,
+        2744,
+        3123
+      ],
+      "source_word_id": 207,
+      "asbestos_status": "unresolved"
+    }
+  ],
+  "tiled_mentions": [
+    {
+      "material": "stucco",
+      "raw_text": "STUCCO",
+      "confidence": 70.957558,
+      "box": [
+        1585,
+        2011,
+        1861,
+        2071
+      ],
+      "source_word_id": 324,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stucco",
+      "raw_text": "Stucco",
+      "confidence": 32.359253,
+      "box": [
+        3377,
+        2295,
+        3637,
+        2343
+      ],
+      "source_word_id": 474,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stone",
+      "raw_text": "STONE",
+      "confidence": 93.113098,
+      "box": [
+        752,
+        2835,
+        945,
+        2882
+      ],
+      "source_word_id": 524,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "brick",
+      "raw_text": "Brick",
+      "confidence": 67.411194,
+      "box": [
+        1890,
+        2086,
+        2122,
+        2137
+      ],
+      "source_word_id": 548,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "concrete",
+      "raw_text": "\u201cConcrete",
+      "confidence": 66.766884,
+      "box": [
+        2270,
+        3040,
+        2744,
+        3123
+      ],
+      "source_word_id": 630,
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stone",
+      "raw_text": "STONE",
+      "confidence": 49.625633,
+      "box": [
+        4097,
+        2831,
+        4286,
+        2874
+      ],
+      "source_word_id": 671,
+      "asbestos_status": "unresolved"
+    }
+  ],
+  "note": "Counts are candidate mentions, not accuracy scores. Remaining duplicates and incorrect readings are possible.",
+  "easyocr_gpu_mentions": [
+    {
+      "material": "brick",
+      "raw_text": "Brick",
+      "confidence": 0.9439514276892833,
+      "box": [
+        1890,
+        2080,
+        2132,
+        2146
+      ],
+      "source_tile_ids": [
+        "tile_006",
+        "tile_010"
+      ],
+      "source_detection_ids": [
+        31,
+        90
+      ],
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stone",
+      "raw_text": "STONE",
+      "confidence": 0.921061624628205,
+      "box": [
+        4064,
+        2346,
+        4282,
+        2400
+      ],
+      "source_tile_ids": [
+        "tile_012",
+        "tile_008"
+      ],
+      "source_detection_ids": [
+        125,
+        63
+      ],
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stucco",
+      "raw_text": "Stucco",
+      "confidence": 0.8922523112754642,
+      "box": [
+        1578,
+        2001,
+        1875,
+        2082
+      ],
+      "source_tile_ids": [
+        "tile_010",
+        "tile_006"
+      ],
+      "source_detection_ids": [
+        88,
+        29
+      ],
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stone",
+      "raw_text": "SToNE",
+      "confidence": 0.7640906993536293,
+      "box": [
+        747,
+        2829,
+        953,
+        2891
+      ],
+      "source_tile_ids": [
+        "tile_009"
+      ],
+      "source_detection_ids": [
+        81
+      ],
+      "asbestos_status": "unresolved"
+    },
+    {
+      "material": "stucco",
+      "raw_text": "Stucco r",
+      "confidence": 0.28806527856813585,
+      "box": [
+        2002,
+        865,
+        2378,
+        928
+      ],
+      "source_tile_ids": [
+        "tile_006"
+      ],
+      "source_detection_ids": [
+        25
+      ],
+      "asbestos_status": "unresolved"
+    }
+  ],
+  "easyocr_gpu_metadata": {
+    "input_file": "easyocr_material_candidates_cuda.json",
+    "easyocr_version": "1.7.2",
+    "torch_version": "2.11.0+cu128",
+    "settings": {
+      "batch_size": 1,
+      "device": "cuda",
+      "languages": [
+        "en"
+      ],
+      "paragraph": false,
+      "workers": 0
+    },
+    "input_mentions": 8,
+    "retained_mentions": 5,
+    "deduplication_iou_threshold": 0.5,
+    "position_granularity": "OCR text box; may span several words"
+  }
+}

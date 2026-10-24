@@ -1,0 +1,183 @@
+{
+  "scope": "Same three manually selected development crops",
+  "engine": "EasyOCR",
+  "easyocr_version": "1.7.2",
+  "torch_version": "2.14.1+cpu",
+  "languages": [
+    "en"
+  ],
+  "device": "cpu",
+  "normalization": "English lowercase letters/digits; punctuation removed; whitespace collapsed; spaces included in CER",
+  "cer": 0.15789473684210525,
+  "wer": 0.42857142857142855,
+  "results": [
+    {
+      "region": "stucco_on_brick",
+      "reference": "STUCCO ON BRICK",
+      "raw_prediction": "Stucco ON Brick",
+      "normalized_prediction": "stucco on brick",
+      "character_edits": 0,
+      "reference_characters": 15,
+      "word_edits": 0,
+      "reference_words": 3,
+      "detections": [
+        {
+          "box": [
+            [
+              26.0,
+              14.0
+            ],
+            [
+              324.0,
+              14.0
+            ],
+            [
+              324.0,
+              98.0
+            ],
+            [
+              26.0,
+              98.0
+            ]
+          ],
+          "text": "Stucco",
+          "confidence": 0.9306677653915629
+        },
+        {
+          "box": [
+            [
+              190.0,
+              100.0
+            ],
+            [
+              290.0,
+              100.0
+            ],
+            [
+              290.0,
+              154.0
+            ],
+            [
+              190.0,
+              154.0
+            ]
+          ],
+          "text": "ON",
+          "confidence": 0.9985181856943981
+        },
+        {
+          "box": [
+            [
+              336.0,
+              89.0
+            ],
+            [
+              570.0,
+              89.0
+            ],
+            [
+              570.0,
+              161.0
+            ],
+            [
+              336.0,
+              161.0
+            ]
+          ],
+          "text": "Brick",
+          "confidence": 0.4987794660995728
+        }
+      ]
+    },
+    {
+      "region": "iron_rail",
+      "reference": "Iron Rail",
+      "raw_prediction": "n Rajyl",
+      "normalized_prediction": "n rajyl",
+      "character_edits": 5,
+      "reference_characters": 9,
+      "word_edits": 2,
+      "reference_words": 2,
+      "detections": [
+        {
+          "box": [
+            [
+              123.0,
+              19.0
+            ],
+            [
+              167.0,
+              19.0
+            ],
+            [
+              167.0,
+              75.0
+            ],
+            [
+              123.0,
+              75.0
+            ]
+          ],
+          "text": "n",
+          "confidence": 0.6301645190876606
+        },
+        {
+          "box": [
+            [
+              221.0,
+              0.0
+            ],
+            [
+              396.0,
+              0.0
+            ],
+            [
+              396.0,
+              104.0
+            ],
+            [
+              221.0,
+              104.0
+            ]
+          ],
+          "text": "Rajyl",
+          "confidence": 0.7523864722000306
+        }
+      ]
+    },
+    {
+      "region": "concrete_steps",
+      "reference": "Concrete Steps",
+      "raw_prediction": "Concrefe Steps-",
+      "normalized_prediction": "concrefe steps",
+      "character_edits": 1,
+      "reference_characters": 14,
+      "word_edits": 1,
+      "reference_words": 2,
+      "detections": [
+        {
+          "box": [
+            [
+              31.0,
+              0.0
+            ],
+            [
+              803.0,
+              0.0
+            ],
+            [
+              803.0,
+              113.0
+            ],
+            [
+              31.0,
+              113.0
+            ]
+          ],
+          "text": "Concrefe Steps-",
+          "confidence": 0.3922924854738786
+        }
+      ]
+    }
+  ]
+}

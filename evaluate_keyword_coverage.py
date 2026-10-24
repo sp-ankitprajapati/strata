@@ -50,7 +50,7 @@ def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
 
     comparison = json.loads(
-        (FOLDER / "material_comparison.json").read_text(
+        (FOLDER / "material_comparison_all.json").read_text(
             encoding="utf-8"
         )
     )
@@ -58,9 +58,10 @@ def main():
     pipelines = {
         "baseline": comparison["baseline_mentions"],
         "tiled": comparison["tiled_mentions"],
+        "easyocr_gpu": comparison["easyocr_gpu_mentions"],
     }
 
-    totals = {"baseline": 0, "tiled": 0}
+    totals = {name: 0 for name in pipelines}
     reference_count = 0
     records = []
 
