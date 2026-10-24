@@ -1,0 +1,144 @@
+{
+  "mode": "drawing",
+  "query_data_kind": "ocr_derived_generic_mentions",
+  "input_file": "reports/ocr_baseline/material_comparison_all.json",
+  "decision_scope": "Manufacturer reference matching",
+  "catalogue_id": "strata-manufacturer-reference-v1",
+  "catalogue_reviewed_on": "2026-10-25",
+  "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+  "counts": {
+    "unresolved": 5
+  },
+  "results": [
+    {
+      "query": {
+        "query_id": "ocr-001",
+        "product_name": "STUCCO",
+        "material_keyword": "stucco",
+        "manufacturer": null,
+        "manufacture_month": null,
+        "source_image": "drawing_crop.png",
+        "box_in_crop": [
+          1585,
+          2011,
+          1861,
+          2071
+        ],
+        "ocr_confidence": 70.957558,
+        "ocr_confidence_scale": "0 to 100"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "ocr-002",
+        "product_name": "Brick.",
+        "material_keyword": "brick",
+        "manufacturer": null,
+        "manufacture_month": null,
+        "source_image": "drawing_crop.png",
+        "box_in_crop": [
+          1895,
+          2086,
+          2122,
+          2137
+        ],
+        "ocr_confidence": 4.850533,
+        "ocr_confidence_scale": "0 to 100"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "ocr-003",
+        "product_name": "Stucco",
+        "material_keyword": "stucco",
+        "manufacturer": null,
+        "manufacture_month": null,
+        "source_image": "drawing_crop.png",
+        "box_in_crop": [
+          3377,
+          2295,
+          3637,
+          2343
+        ],
+        "ocr_confidence": 32.359253,
+        "ocr_confidence_scale": "0 to 100"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "ocr-004",
+        "product_name": "STONE",
+        "material_keyword": "stone",
+        "manufacturer": null,
+        "manufacture_month": null,
+        "source_image": "drawing_crop.png",
+        "box_in_crop": [
+          752,
+          2835,
+          945,
+          2882
+        ],
+        "ocr_confidence": 93.113098,
+        "ocr_confidence_scale": "0 to 100"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "ocr-005",
+        "product_name": "Concrete",
+        "material_keyword": "concrete",
+        "manufacturer": null,
+        "manufacture_month": null,
+        "source_image": "drawing_crop.png",
+        "box_in_crop": [
+          2325,
+          3061,
+          2744,
+          3123
+        ],
+        "ocr_confidence": 95.630333,
+        "ocr_confidence_scale": "0 to 100"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    }
+  ]
+}

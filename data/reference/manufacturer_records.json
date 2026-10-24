@@ -1,0 +1,60 @@
+{
+  "dataset_id": "strata-manufacturer-reference-v1",
+  "data_kind": "real_manufacturer_reference",
+  "curation_method": "Manually curated from indexed official manufacturer text",
+  "reviewed_on": "2026-10-25",
+  "scope": "Two product-family reference records for prototype matching",
+  "records": [
+    {
+      "record_id": "nichiha-golden-moen",
+      "manufacturer": "Nichiha",
+      "manufacturer_aliases": [
+        "Nichiha",
+        "ニチハ",
+        "ニチハ株式会社",
+        "日本ハードボード工業株式会社"
+      ],
+      "product_name": "ゴールデン モエンサイディング",
+      "aliases": [
+        "ゴールデン モエンサイディング",
+        "ゴールデンモエンサイディング"
+      ],
+      "product_code": null,
+      "reference_status": "asbestos_containing",
+      "match_period_start": "1974-11",
+      "match_period_end": "1981-04",
+      "period_basis": "Manufacturer-published historical manufacturing period",
+      "source_urls": [
+        "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+        "https://www.nichiha.co.jp/products/wall/yogyo/asbestos.pdf"
+      ],
+      "evidence_note": "Manufacturer reports asbestos use in this historical product."
+    },
+    {
+      "record_id": "nichiha-moen-m",
+      "manufacturer": "Nichiha",
+      "manufacturer_aliases": [
+        "Nichiha",
+        "ニチハ",
+        "ニチハ株式会社",
+        "日本ハードボード工業株式会社"
+      ],
+      "product_name": "モエンサイディング-M",
+      "aliases": [
+        "モエンサイディング-M",
+        "モエンサイディング－Ｍ"
+      ],
+      "product_code": null,
+      "reference_status": "non_asbestos_containing",
+      "match_period_start": "1981-05",
+      "match_period_end": "2026-10",
+      "period_basis": "Manufacturer information, capped at this snapshot's review month; the end is not a discontinuation date",
+      "source_urls": [
+        "https://www.nichiha.co.jp/products/wall/yogyo/offsetsiding_m/",
+        "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+        "https://www.nichiha.co.jp/products/wall/yogyo/products.pdf"
+      ],
+      "evidence_note": "Product-family page states asbestos-free status; manufacturer information supports the May 1981 starting boundary."
+    }
+  ]
+}

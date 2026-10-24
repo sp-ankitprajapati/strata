@@ -1,0 +1,106 @@
+{
+  "mode": "demo",
+  "query_data_kind": "synthetic_test_queries",
+  "input_file": "examples/matching_queries.json",
+  "decision_scope": "Manufacturer reference matching",
+  "catalogue_id": "strata-manufacturer-reference-v1",
+  "catalogue_reviewed_on": "2026-10-25",
+  "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+  "counts": {
+    "asbestos_containing": 1,
+    "non_asbestos_containing": 1,
+    "unresolved": 2
+  },
+  "results": [
+    {
+      "query": {
+        "query_id": "demo-001",
+        "product_name": "ゴールデン モエンサイディング",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1978-06"
+      },
+      "decision": {
+        "status": "asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match",
+        "matched_record_id": "nichiha-golden-moen",
+        "candidate_record_ids": [
+          "nichiha-golden-moen"
+        ],
+        "source_urls": [
+          "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+          "https://www.nichiha.co.jp/products/wall/yogyo/asbestos.pdf"
+        ]
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "demo-002",
+        "product_name": "モエンサイディング－Ｍ",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1995-08"
+      },
+      "decision": {
+        "status": "non_asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match",
+        "matched_record_id": "nichiha-moen-m",
+        "candidate_record_ids": [
+          "nichiha-moen-m"
+        ],
+        "source_urls": [
+          "https://www.nichiha.co.jp/products/wall/yogyo/offsetsiding_m/",
+          "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+          "https://www.nichiha.co.jp/products/wall/yogyo/products.pdf"
+        ]
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "demo-003",
+        "product_name": "stucco",
+        "manufacturer": null,
+        "manufacture_month": null
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "demo-004",
+        "product_name": "モエンサイディング-N",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1995-08"
+      },
+      "decision": {
+        "status": "unresolved",
+        "reason": "no_exact_product_match",
+        "matched_record_id": null,
+        "candidate_record_ids": [],
+        "source_urls": []
+      },
+      "suggestions": [
+        {
+          "record_id": "nichiha-moen-m",
+          "product_name": "モエンサイディング-M",
+          "manufacturer": "Nichiha",
+          "similarity_score": 0.9091,
+          "match_period_start": "1981-05",
+          "match_period_end": "2026-10",
+          "source_urls": [
+            "https://www.nichiha.co.jp/products/wall/yogyo/offsetsiding_m/",
+            "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+            "https://www.nichiha.co.jp/products/wall/yogyo/products.pdf"
+          ],
+          "requires_review": true
+        }
+      ]
+    }
+  ]
+}

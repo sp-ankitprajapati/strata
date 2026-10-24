@@ -1,0 +1,29 @@
+{
+  "data_kind": "synthetic_test_queries",
+  "queries": [
+    {
+      "query_id": "demo-001",
+      "product_name": "ゴールデン モエンサイディング",
+      "manufacturer": "Nichiha",
+      "manufacture_month": "1978-06"
+    },
+    {
+      "query_id": "demo-002",
+      "product_name": "モエンサイディング－Ｍ",
+      "manufacturer": "Nichiha",
+      "manufacture_month": "1995-08"
+    },
+    {
+      "query_id": "demo-003",
+      "product_name": "stucco",
+      "manufacturer": null,
+      "manufacture_month": null
+    },
+    {
+      "query_id": "demo-004",
+      "product_name": "モエンサイディング-N",
+      "manufacturer": "Nichiha",
+      "manufacture_month": "1995-08"
+    }
+  ]
+}
