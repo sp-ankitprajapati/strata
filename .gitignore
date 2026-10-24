@@ -2,3 +2,6 @@
 __pycache__/
 data/raw/
 data/processed/
+.venv-tools/
+.venv-ocr/
+.models/
