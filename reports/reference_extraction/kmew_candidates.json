@@ -1,0 +1,1273 @@
+{
+  "data_kind": "real_reference_extraction_candidates",
+  "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+  "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+  "retrieved_at_utc": "2026-10-25T11:57:30.728173+00:00",
+  "extraction_method": "document_specific_table_rules",
+  "ocr_used": false,
+  "document_pages": [
+    {
+      "page": 1,
+      "raw_text": "＿＿＿＿＿＿＿＿＿ ＿＿＿＿＿＿＿＿＿御中 2026 年 10 月 25 日\nケイミュー株式会社\n奈良テクノセンター\n品質統括部\n環境グループ\n石綿不使用製品証明書\n以下に記載する、２００３年１２月以降ケイミュー株式会社が販売している全ての外壁材（本体・同質出隅）、幕板、軒天材\nおよび屋根材（本体・スターター）には、原材料に石綿を使用していません。\n外壁材 2024年4月3日現在\nシリーズ名 商品板厚(㎜) 商品名 塗装種類 塗装色\nレジェール 21 全て 全て 全て\nフィルテクト 16 全て 全て 全て\nフラットデザインパネル 16 全て 全て 全て\nネオロック25 25 全て 全て 全て\nネオロック21 21 全て 全て 全て\nネオロック18 18 全て 全て 全て\nネオロック16 16 全て 全て 全て\nネオロック15 15 全て 全て 全て\nセラディール18 18 全て 全て 全て\nセラディール16 16 全て 全て 全て\nセラディール14 14 全て 全て 全て\nセラディール14広幅 14 全て 全て 全て\nセラディール13 13 全て 全て 全て\nエクセレージ16 16 全て 全て 全て\nエクセレージ15 15 全て 全て 全て\nエクセレージ14 14 全て 全て 全て\nエクセレージ14広幅 14 全て 全て 全て\nエクセレージ12 12 全て 全て 全て\nエクセレージ12広幅 12 全て 全て 全て\nはる・一番 16 全て 全て 全て\nＬＡＰ-ＷＡＬＬ 5.2、5.5、6、7 全て 全て 全て\n屋根材\n商品名（塗装色：すべて）\n品名にグラッサ、クァッド、グランデ、NEOがどれかひとつ、又は複数入っている物（ケイミュー設立以前の商品も適用可です）\nエコ・ウーノ（レサスECO18） エコ・シンプル シルバス シルバスウーノ\nシンフォニー シンフォニーグランデ（シンフォニーDX） グランネクストシリーズ ROOGAシリーズ\nレサス レサス・ウーノ（レサスDX） レサスTX ワンダ・ストーンⅡ\nワンダ・ナチュレ ワンダ・ロイヤル リコロニー スマートメタル\nSOLIDO\nシリーズ名 商品名 塗装種類 塗装色\ntypeF 全て 全て 全て\ntypeM 全て 全て 全て\n免責事項\n・ 本証明書は、上記各製品の原材料につき、石綿の不使用を証明するものです。\n（上記 各製品以外の製品の原材料に、石綿を使用していることを示すものではありません。）\n・ 上記各製品への該当性については、お客様の責任にてご判断頂くものとし、その判断について、弊社が責任を負うものではありません。\n判断に迷う場合には、必ず、弊社までご連絡頂きますようお願い致します。\n・ 本証明書は、表右上部記載の日時における情報を掲載したものであり、同時点以降に生産・販売された製品に関する情報は反映されておりませ\nん 。予告なしに情報の追加・編集等を行うこともございますので、予めご理解下さい。\n以上\nPowered by TCPDF (www.tcpdf.org)"
+    }
+  ],
+  "scope_note": "Keep the certificate wording and table conditions with these names. A sales-period condition must not become a manufacturing date. No candidates have been imported into the active catalogue.",
+  "candidates": [
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r2-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "レジェール",
+      "name_kind": "series",
+      "thickness_mm_raw": "21",
+      "row": 2,
+      "column": 1,
+      "raw_cells": [
+        "レジェール",
+        "21",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r3-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "フィルテクト",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 3,
+      "column": 1,
+      "raw_cells": [
+        "フィルテクト",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r4-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "フラットデザインパネル",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 4,
+      "column": 1,
+      "raw_cells": [
+        "フラットデザインパネル",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r5-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ネオロック25",
+      "name_kind": "series",
+      "thickness_mm_raw": "25",
+      "row": 5,
+      "column": 1,
+      "raw_cells": [
+        "ネオロック25",
+        "25",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r6-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ネオロック21",
+      "name_kind": "series",
+      "thickness_mm_raw": "21",
+      "row": 6,
+      "column": 1,
+      "raw_cells": [
+        "ネオロック21",
+        "21",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r7-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ネオロック18",
+      "name_kind": "series",
+      "thickness_mm_raw": "18",
+      "row": 7,
+      "column": 1,
+      "raw_cells": [
+        "ネオロック18",
+        "18",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r8-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ネオロック16",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 8,
+      "column": 1,
+      "raw_cells": [
+        "ネオロック16",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r9-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ネオロック15",
+      "name_kind": "series",
+      "thickness_mm_raw": "15",
+      "row": 9,
+      "column": 1,
+      "raw_cells": [
+        "ネオロック15",
+        "15",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r10-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "セラディール18",
+      "name_kind": "series",
+      "thickness_mm_raw": "18",
+      "row": 10,
+      "column": 1,
+      "raw_cells": [
+        "セラディール18",
+        "18",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r11-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "セラディール16",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 11,
+      "column": 1,
+      "raw_cells": [
+        "セラディール16",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r12-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "セラディール14",
+      "name_kind": "series",
+      "thickness_mm_raw": "14",
+      "row": 12,
+      "column": 1,
+      "raw_cells": [
+        "セラディール14",
+        "14",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r13-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "セラディール14広幅",
+      "name_kind": "series",
+      "thickness_mm_raw": "14",
+      "row": 13,
+      "column": 1,
+      "raw_cells": [
+        "セラディール14広幅",
+        "14",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r14-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "セラディール13",
+      "name_kind": "series",
+      "thickness_mm_raw": "13",
+      "row": 14,
+      "column": 1,
+      "raw_cells": [
+        "セラディール13",
+        "13",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r15-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ16",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 15,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ16",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r16-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ15",
+      "name_kind": "series",
+      "thickness_mm_raw": "15",
+      "row": 16,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ15",
+        "15",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r17-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ14",
+      "name_kind": "series",
+      "thickness_mm_raw": "14",
+      "row": 17,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ14",
+        "14",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r18-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ14広幅",
+      "name_kind": "series",
+      "thickness_mm_raw": "14",
+      "row": 18,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ14広幅",
+        "14",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r19-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ12",
+      "name_kind": "series",
+      "thickness_mm_raw": "12",
+      "row": 19,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ12",
+        "12",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r20-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "エクセレージ12広幅",
+      "name_kind": "series",
+      "thickness_mm_raw": "12",
+      "row": 20,
+      "column": 1,
+      "raw_cells": [
+        "エクセレージ12広幅",
+        "12",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r21-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "はる・一番",
+      "name_kind": "series",
+      "thickness_mm_raw": "16",
+      "row": 21,
+      "column": 1,
+      "raw_cells": [
+        "はる・一番",
+        "16",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t1-r22-c1",
+      "manufacturer": "KMEW",
+      "group": "exterior_wall",
+      "name": "ＬＡＰ-ＷＡＬＬ",
+      "name_kind": "series",
+      "thickness_mm_raw": "5.2、5.5、6、7",
+      "row": 22,
+      "column": 1,
+      "raw_cells": [
+        "ＬＡＰ-ＷＡＬＬ",
+        "5.2、5.5、6、7",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 1,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          203.52824599999994,
+          566.9259999999997,
+          498.403266
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r3-c1",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "エコ・ウーノ（レサスECO18）",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 3,
+      "column": 1,
+      "raw_cells": [
+        "エコ・ウーノ（レサスECO18）",
+        "エコ・シンプル",
+        "シルバス",
+        "シルバスウーノ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r3-c2",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "エコ・シンプル",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 3,
+      "column": 2,
+      "raw_cells": [
+        "エコ・ウーノ（レサスECO18）",
+        "エコ・シンプル",
+        "シルバス",
+        "シルバスウーノ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r3-c3",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "シルバス",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 3,
+      "column": 3,
+      "raw_cells": [
+        "エコ・ウーノ（レサスECO18）",
+        "エコ・シンプル",
+        "シルバス",
+        "シルバスウーノ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r3-c4",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "シルバスウーノ",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 3,
+      "column": 4,
+      "raw_cells": [
+        "エコ・ウーノ（レサスECO18）",
+        "エコ・シンプル",
+        "シルバス",
+        "シルバスウーノ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r4-c1",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "シンフォニー",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 4,
+      "column": 1,
+      "raw_cells": [
+        "シンフォニー",
+        "シンフォニーグランデ（シンフォニーDX）",
+        "グランネクストシリーズ",
+        "ROOGAシリーズ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r4-c2",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "シンフォニーグランデ（シンフォニーDX）",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 4,
+      "column": 2,
+      "raw_cells": [
+        "シンフォニー",
+        "シンフォニーグランデ（シンフォニーDX）",
+        "グランネクストシリーズ",
+        "ROOGAシリーズ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r4-c3",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "グランネクストシリーズ",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 4,
+      "column": 3,
+      "raw_cells": [
+        "シンフォニー",
+        "シンフォニーグランデ（シンフォニーDX）",
+        "グランネクストシリーズ",
+        "ROOGAシリーズ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r4-c4",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "ROOGAシリーズ",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 4,
+      "column": 4,
+      "raw_cells": [
+        "シンフォニー",
+        "シンフォニーグランデ（シンフォニーDX）",
+        "グランネクストシリーズ",
+        "ROOGAシリーズ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r5-c1",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "レサス",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 5,
+      "column": 1,
+      "raw_cells": [
+        "レサス",
+        "レサス・ウーノ（レサスDX）",
+        "レサスTX",
+        "ワンダ・ストーンⅡ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r5-c2",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "レサス・ウーノ（レサスDX）",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 5,
+      "column": 2,
+      "raw_cells": [
+        "レサス",
+        "レサス・ウーノ（レサスDX）",
+        "レサスTX",
+        "ワンダ・ストーンⅡ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r5-c3",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "レサスTX",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 5,
+      "column": 3,
+      "raw_cells": [
+        "レサス",
+        "レサス・ウーノ（レサスDX）",
+        "レサスTX",
+        "ワンダ・ストーンⅡ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r5-c4",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "ワンダ・ストーンⅡ",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 5,
+      "column": 4,
+      "raw_cells": [
+        "レサス",
+        "レサス・ウーノ（レサスDX）",
+        "レサスTX",
+        "ワンダ・ストーンⅡ"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r6-c1",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "ワンダ・ナチュレ",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 6,
+      "column": 1,
+      "raw_cells": [
+        "ワンダ・ナチュレ",
+        "ワンダ・ロイヤル",
+        "リコロニー",
+        "スマートメタル"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r6-c2",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "ワンダ・ロイヤル",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 6,
+      "column": 2,
+      "raw_cells": [
+        "ワンダ・ナチュレ",
+        "ワンダ・ロイヤル",
+        "リコロニー",
+        "スマートメタル"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r6-c3",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "リコロニー",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 6,
+      "column": 3,
+      "raw_cells": [
+        "ワンダ・ナチュレ",
+        "ワンダ・ロイヤル",
+        "リコロニー",
+        "スマートメタル"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t2-r6-c4",
+      "manufacturer": "KMEW",
+      "group": "roof",
+      "name": "スマートメタル",
+      "name_kind": "product_or_series",
+      "thickness_mm_raw": null,
+      "row": 6,
+      "column": 4,
+      "raw_cells": [
+        "ワンダ・ナチュレ",
+        "ワンダ・ロイヤル",
+        "リコロニー",
+        "スマートメタル"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t3-r2-c1",
+      "manufacturer": "KMEW",
+      "group": "SOLIDO",
+      "name": "typeF",
+      "name_kind": "series",
+      "thickness_mm_raw": null,
+      "row": 2,
+      "column": 1,
+      "raw_cells": [
+        "typeF",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 3,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          623.4032619999999,
+          566.9259999999997,
+          665.4032648
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    },
+    {
+      "candidate_id": "kmew-c9b1950f32-p1-t3-r3-c1",
+      "manufacturer": "KMEW",
+      "group": "SOLIDO",
+      "name": "typeM",
+      "name_kind": "series",
+      "thickness_mm_raw": null,
+      "row": 3,
+      "column": 1,
+      "raw_cells": [
+        "typeM",
+        "全て",
+        "全て",
+        "全て"
+      ],
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 3,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          623.4032619999999,
+          566.9259999999997,
+          665.4032648
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      },
+      "review_status": "pending_review",
+      "eligible_for_automatic_matching": false
+    }
+  ],
+  "conditional_rules": [
+    {
+      "row": 2,
+      "raw_text": "品名にグラッサ、クァッド、グランデ、NEOがどれかひとつ、又は複数入っている物（ケイミュー設立以前の商品も適用可です）",
+      "raw_cells": [
+        "品名にグラッサ、クァッド、グランデ、NEOがどれかひとつ、又は複数入っている物（ケイミュー設立以前の商品も適用可です）",
+        null,
+        null,
+        null
+      ],
+      "review_status": "pending_review",
+      "source": {
+        "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+        "pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+        "page": 1,
+        "table": 2,
+        "table_bbox_pdf_points": [
+          28.350000000000012,
+          523.9032649999999,
+          566.9259999999997,
+          597.9032628000001
+        ],
+        "coordinate_system": "PDF points; top-left origin"
+      }
+    }
+  ]
+}
