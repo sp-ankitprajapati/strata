@@ -1,0 +1,2049 @@
+{
+  "cuda_build": "12.8",
+  "data_kind": "same_document_additional_table_validation",
+  "device": "cuda",
+  "easyocr_version": "1.7.2",
+  "git_commit": "fe3188a6cf0b90858e7a79b04685470a4c244e75",
+  "gpu": "Tesla T4",
+  "inspection_sha256": "b302bf809ae8e8b6d133a1c011769e94fb40f6a7271d4a5a2bf187e853251f67",
+  "languages": [
+    "ja",
+    "en"
+  ],
+  "metric": "Exact name recovery from individual OCR boxes",
+  "normalization": "NFKC, whitespace removed, casefold; punctuation retained",
+  "python_version": "3.13.15",
+  "quantize": false,
+  "readtext_settings": {
+    "batch_size": 1,
+    "detail": 1,
+    "paragraph": false,
+    "workers": 0
+  },
+  "reference_basis": "Native PDF extraction",
+  "runs": [
+    {
+      "crop_box_in_page_pixels": [
+        51,
+        1083,
+        1190,
+        1254
+      ],
+      "crop_sha256": "33bffbbafde2b042f5cd6739dae22c5d05dc6b86a2c94053b152b900d0a5de18",
+      "detections": [
+        {
+          "confidence": 0.68092537773886,
+          "id": 1,
+          "polygon_in_resized_crop": [
+            [
+              464,
+              10
+            ],
+            [
+              586,
+              10
+            ],
+            [
+              586,
+              36
+            ],
+            [
+              464,
+              36
+            ]
+          ],
+          "text": "商品名 〔塗装色"
+        },
+        {
+          "confidence": 0.658637523651123,
+          "id": 2,
+          "polygon_in_resized_crop": [
+            [
+              601,
+              13
+            ],
+            [
+              659,
+              13
+            ],
+            [
+              659,
+              33
+            ],
+            [
+              601,
+              33
+            ]
+          ],
+          "text": "すべて〕"
+        },
+        {
+          "confidence": 0.9576914936978859,
+          "id": 3,
+          "polygon_in_resized_crop": [
+            [
+              11,
+              43
+            ],
+            [
+              97,
+              43
+            ],
+            [
+              97,
+              63
+            ],
+            [
+              11,
+              63
+            ]
+          ],
+          "text": "品名にグラ"
+        },
+        {
+          "confidence": 0.9040077328681946,
+          "id": 4,
+          "polygon_in_resized_crop": [
+            [
+              147,
+              45
+            ],
+            [
+              219,
+              45
+            ],
+            [
+              219,
+              65
+            ],
+            [
+              147,
+              65
+            ]
+          ],
+          "text": "クァッド"
+        },
+        {
+          "confidence": 0.9943712949752808,
+          "id": 5,
+          "polygon_in_resized_crop": [
+            [
+              226,
+              42
+            ],
+            [
+              300,
+              42
+            ],
+            [
+              300,
+              66
+            ],
+            [
+              226,
+              66
+            ]
+          ],
+          "text": "グランデ"
+        },
+        {
+          "confidence": 0.32993600898950265,
+          "id": 6,
+          "polygon_in_resized_crop": [
+            [
+              310,
+              40
+            ],
+            [
+              732,
+              40
+            ],
+            [
+              732,
+              66
+            ],
+            [
+              310,
+              66
+            ]
+          ],
+          "text": "NEOがどれかひとつ 又は複数入っている物 〔ケイミュー"
+        },
+        {
+          "confidence": 0.9540371551114604,
+          "id": 7,
+          "polygon_in_resized_crop": [
+            [
+              742,
+              41
+            ],
+            [
+              972,
+              41
+            ],
+            [
+              972,
+              66
+            ],
+            [
+              742,
+              66
+            ]
+          ],
+          "text": "設立以前の商品も適用可です)"
+        },
+        {
+          "confidence": 0.9994587930763655,
+          "id": 8,
+          "polygon_in_resized_crop": [
+            [
+              13,
+              73
+            ],
+            [
+              39,
+              73
+            ],
+            [
+              39,
+              89
+            ],
+            [
+              13,
+              89
+            ]
+          ],
+          "text": "エコ"
+        },
+        {
+          "confidence": 0.5021068333046802,
+          "id": 9,
+          "polygon_in_resized_crop": [
+            [
+              49,
+              73
+            ],
+            [
+              89,
+              73
+            ],
+            [
+              89,
+              87
+            ],
+            [
+              49,
+              87
+            ]
+          ],
+          "text": "ウー」"
+        },
+        {
+          "confidence": 0.5038509304503965,
+          "id": 10,
+          "polygon_in_resized_crop": [
+            [
+              93,
+              73
+            ],
+            [
+              183,
+              73
+            ],
+            [
+              183,
+              87
+            ],
+            [
+              93,
+              87
+            ]
+          ],
+          "text": "【レサスECロ18〕"
+        },
+        {
+          "confidence": 0.9995200654282378,
+          "id": 11,
+          "polygon_in_resized_crop": [
+            [
+              295,
+              73
+            ],
+            [
+              319,
+              73
+            ],
+            [
+              319,
+              87
+            ],
+            [
+              295,
+              87
+            ]
+          ],
+          "text": "エコ"
+        },
+        {
+          "confidence": 0.9976980474344612,
+          "id": 12,
+          "polygon_in_resized_crop": [
+            [
+              329,
+              73
+            ],
+            [
+              383,
+              73
+            ],
+            [
+              383,
+              87
+            ],
+            [
+              329,
+              87
+            ]
+          ],
+          "text": "シンプル"
+        },
+        {
+          "confidence": 0.798603355884552,
+          "id": 13,
+          "polygon_in_resized_crop": [
+            [
+              575,
+              73
+            ],
+            [
+              625,
+              73
+            ],
+            [
+              625,
+              87
+            ],
+            [
+              575,
+              87
+            ]
+          ],
+          "text": "シルバス"
+        },
+        {
+          "confidence": 0.4751167664301929,
+          "id": 14,
+          "polygon_in_resized_crop": [
+            [
+              855,
+              72
+            ],
+            [
+              941,
+              72
+            ],
+            [
+              941,
+              86
+            ],
+            [
+              855,
+              86
+            ]
+          ],
+          "text": "シルバスウー」"
+        },
+        {
+          "confidence": 0.43672658069658477,
+          "id": 15,
+          "polygon_in_resized_crop": [
+            [
+              13,
+              97
+            ],
+            [
+              87,
+              97
+            ],
+            [
+              87,
+              113
+            ],
+            [
+              13,
+              113
+            ]
+          ],
+          "text": "シンフォニー"
+        },
+        {
+          "confidence": 0.6119578582518465,
+          "id": 16,
+          "polygon_in_resized_crop": [
+            [
+              293,
+              94
+            ],
+            [
+              527,
+              94
+            ],
+            [
+              527,
+              114
+            ],
+            [
+              293,
+              114
+            ]
+          ],
+          "text": "シンフォニーグランデ 〔シンフォニーDX}"
+        },
+        {
+          "confidence": 0.8802481403255172,
+          "id": 17,
+          "polygon_in_resized_crop": [
+            [
+              575,
+              97
+            ],
+            [
+              713,
+              97
+            ],
+            [
+              713,
+              113
+            ],
+            [
+              575,
+              113
+            ]
+          ],
+          "text": "グランネクストシリーズ"
+        },
+        {
+          "confidence": 0.3219576102593823,
+          "id": 18,
+          "polygon_in_resized_crop": [
+            [
+              853,
+              97
+            ],
+            [
+              949,
+              97
+            ],
+            [
+              949,
+              113
+            ],
+            [
+              853,
+              113
+            ]
+          ],
+          "text": "RDDGAシリーズ"
+        },
+        {
+          "confidence": 0.9826643278443702,
+          "id": 19,
+          "polygon_in_resized_crop": [
+            [
+              13,
+              121
+            ],
+            [
+              51,
+              121
+            ],
+            [
+              51,
+              135
+            ],
+            [
+              13,
+              135
+            ]
+          ],
+          "text": "レサス"
+        },
+        {
+          "confidence": 0.9791352758219216,
+          "id": 20,
+          "polygon_in_resized_crop": [
+            [
+              295,
+              121
+            ],
+            [
+              333,
+              121
+            ],
+            [
+              333,
+              135
+            ],
+            [
+              295,
+              135
+            ]
+          ],
+          "text": "レサス"
+        },
+        {
+          "confidence": 0.38850525986341516,
+          "id": 21,
+          "polygon_in_resized_crop": [
+            [
+              343,
+              121
+            ],
+            [
+              381,
+              121
+            ],
+            [
+              381,
+              135
+            ],
+            [
+              343,
+              135
+            ]
+          ],
+          "text": "ウー」"
+        },
+        {
+          "confidence": 0.1547165652877489,
+          "id": 22,
+          "polygon_in_resized_crop": [
+            [
+              387,
+              121
+            ],
+            [
+              453,
+              121
+            ],
+            [
+              453,
+              135
+            ],
+            [
+              387,
+              135
+            ]
+          ],
+          "text": "ルレサスD:〕"
+        },
+        {
+          "confidence": 0.7429478521465211,
+          "id": 23,
+          "polygon_in_resized_crop": [
+            [
+              577,
+              121
+            ],
+            [
+              629,
+              121
+            ],
+            [
+              629,
+              135
+            ],
+            [
+              577,
+              135
+            ]
+          ],
+          "text": "レサスTX"
+        },
+        {
+          "confidence": 0.5968355155022358,
+          "id": 24,
+          "polygon_in_resized_crop": [
+            [
+              855,
+              121
+            ],
+            [
+              893,
+              121
+            ],
+            [
+              893,
+              135
+            ],
+            [
+              855,
+              135
+            ]
+          ],
+          "text": "ワンダ"
+        },
+        {
+          "confidence": 0.5833620893413825,
+          "id": 25,
+          "polygon_in_resized_crop": [
+            [
+              903,
+              121
+            ],
+            [
+              967,
+              121
+            ],
+            [
+              967,
+              135
+            ],
+            [
+              903,
+              135
+            ]
+          ],
+          "text": "ストーンル"
+        },
+        {
+          "confidence": 0.5968355155022358,
+          "id": 26,
+          "polygon_in_resized_crop": [
+            [
+              13,
+              145
+            ],
+            [
+              51,
+              145
+            ],
+            [
+              51,
+              159
+            ],
+            [
+              13,
+              159
+            ]
+          ],
+          "text": "ワンダ"
+        },
+        {
+          "confidence": 0.5704944133758545,
+          "id": 27,
+          "polygon_in_resized_crop": [
+            [
+              61,
+              145
+            ],
+            [
+              113,
+              145
+            ],
+            [
+              113,
+              161
+            ],
+            [
+              61,
+              161
+            ]
+          ],
+          "text": "ナチュレ"
+        },
+        {
+          "confidence": 0.5613346154262469,
+          "id": 28,
+          "polygon_in_resized_crop": [
+            [
+              295,
+              145
+            ],
+            [
+              331,
+              145
+            ],
+            [
+              331,
+              159
+            ],
+            [
+              295,
+              159
+            ]
+          ],
+          "text": "ワンダ"
+        },
+        {
+          "confidence": 0.6742682456970215,
+          "id": 29,
+          "polygon_in_resized_crop": [
+            [
+              343,
+              145
+            ],
+            [
+              395,
+              145
+            ],
+            [
+              395,
+              159
+            ],
+            [
+              343,
+              159
+            ]
+          ],
+          "text": "ロイヤル"
+        },
+        {
+          "confidence": 0.9963458180427551,
+          "id": 30,
+          "polygon_in_resized_crop": [
+            [
+              575,
+              145
+            ],
+            [
+              625,
+              145
+            ],
+            [
+              625,
+              159
+            ],
+            [
+              575,
+              159
+            ]
+          ],
+          "text": "リコロニ"
+        },
+        {
+          "confidence": 0.8722173561390468,
+          "id": 31,
+          "polygon_in_resized_crop": [
+            [
+              855,
+              145
+            ],
+            [
+              945,
+              145
+            ],
+            [
+              945,
+              159
+            ],
+            [
+              855,
+              159
+            ]
+          ],
+          "text": "スマートメタル"
+        },
+        {
+          "confidence": 0.5979455532683708,
+          "id": 32,
+          "polygon_in_resized_crop": [
+            [
+              94.65465441200737,
+              48.520119853208115
+            ],
+            [
+              128.67292225915952,
+              44.903947485378254
+            ],
+            [
+              130.34534558799263,
+              62.479880146791885
+            ],
+            [
+              96.3270777408405,
+              66.09605251462175
+            ]
+          ],
+          "text": "ツサ"
+        }
+      ],
+      "group": "roof",
+      "inference_seconds": 0.421,
+      "ocr_crop_size": [
+        1139,
+        171
+      ],
+      "page": 1,
+      "recovered_count": 6,
+      "reference_count": 16,
+      "results": [
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "エコ・ウーノ（レサスECO18）"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "エコ・シンプル"
+        },
+        {
+          "matched_detection_ids": [
+            13
+          ],
+          "recovered": true,
+          "reference_name": "シルバス"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "シルバスウーノ"
+        },
+        {
+          "matched_detection_ids": [
+            15
+          ],
+          "recovered": true,
+          "reference_name": "シンフォニー"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "シンフォニーグランデ（シンフォニーDX）"
+        },
+        {
+          "matched_detection_ids": [
+            17
+          ],
+          "recovered": true,
+          "reference_name": "グランネクストシリーズ"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ROOGAシリーズ"
+        },
+        {
+          "matched_detection_ids": [
+            19,
+            20
+          ],
+          "recovered": true,
+          "reference_name": "レサス"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "レサス・ウーノ（レサスDX）"
+        },
+        {
+          "matched_detection_ids": [
+            23
+          ],
+          "recovered": true,
+          "reference_name": "レサスTX"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ワンダ・ストーンⅡ"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ワンダ・ナチュレ"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ワンダ・ロイヤル"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "リコロニー"
+        },
+        {
+          "matched_detection_ids": [
+            31
+          ],
+          "recovered": true,
+          "reference_name": "スマートメタル"
+        }
+      ],
+      "scale": 1,
+      "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+      "strict_name_coverage": 0.375,
+      "table": 2
+    },
+    {
+      "crop_box_in_page_pixels": [
+        51,
+        1083,
+        1190,
+        1254
+      ],
+      "crop_sha256": "12c2910f7706c3c4f47082bfaa824d552bf01ba17bef7dfd607c4995a3b9ada5",
+      "detections": [
+        {
+          "confidence": 0.6296482307027325,
+          "id": 1,
+          "polygon_in_resized_crop": [
+            [
+              929,
+              23
+            ],
+            [
+              1320,
+              23
+            ],
+            [
+              1320,
+              68
+            ],
+            [
+              929,
+              68
+            ]
+          ],
+          "text": "商品名 〔塗装色 ; すべて)"
+        },
+        {
+          "confidence": 0.6402332989296122,
+          "id": 2,
+          "polygon_in_resized_crop": [
+            [
+              18,
+              82
+            ],
+            [
+              1948,
+              82
+            ],
+            [
+              1948,
+              131
+            ],
+            [
+              18,
+              131
+            ]
+          ],
+          "text": "品名にグラッサ クァッド グランデ NEOがどれかひとつ 又は複数入っている物 (ケイミュー設立以前の商品も適用可です)"
+        },
+        {
+          "confidence": 0.5345425387035447,
+          "id": 3,
+          "polygon_in_resized_crop": [
+            [
+              21,
+              141
+            ],
+            [
+              367,
+              141
+            ],
+            [
+              367,
+              177
+            ],
+            [
+              21,
+              177
+            ]
+          ],
+          "text": "エコ・ウーノ 〔レサスECDI8〕"
+        },
+        {
+          "confidence": 0.9964093245471808,
+          "id": 4,
+          "polygon_in_resized_crop": [
+            [
+              584,
+              144
+            ],
+            [
+              766,
+              144
+            ],
+            [
+              766,
+              174
+            ],
+            [
+              584,
+              174
+            ]
+          ],
+          "text": "エコ・シンプル"
+        },
+        {
+          "confidence": 0.9282692670822144,
+          "id": 5,
+          "polygon_in_resized_crop": [
+            [
+              1146,
+              144
+            ],
+            [
+              1250,
+              144
+            ],
+            [
+              1250,
+              174
+            ],
+            [
+              1146,
+              174
+            ]
+          ],
+          "text": "シルバス"
+        },
+        {
+          "confidence": 0.9526894179160174,
+          "id": 6,
+          "polygon_in_resized_crop": [
+            [
+              1706,
+              143
+            ],
+            [
+              1884,
+              143
+            ],
+            [
+              1884,
+              173
+            ],
+            [
+              1706,
+              173
+            ]
+          ],
+          "text": "シルバスウーノ"
+        },
+        {
+          "confidence": 0.5840590492171996,
+          "id": 7,
+          "polygon_in_resized_crop": [
+            [
+              20,
+              189
+            ],
+            [
+              177,
+              189
+            ],
+            [
+              177,
+              226
+            ],
+            [
+              20,
+              226
+            ]
+          ],
+          "text": "シンフォニー"
+        },
+        {
+          "confidence": 0.4591486002588606,
+          "id": 8,
+          "polygon_in_resized_crop": [
+            [
+              583,
+              189
+            ],
+            [
+              1057,
+              189
+            ],
+            [
+              1057,
+              225
+            ],
+            [
+              583,
+              225
+            ]
+          ],
+          "text": "シンフォニーグランデ 〔シンフォニーDX)"
+        },
+        {
+          "confidence": 0.9972535954952019,
+          "id": 9,
+          "polygon_in_resized_crop": [
+            [
+              1145,
+              189
+            ],
+            [
+              1429,
+              189
+            ],
+            [
+              1429,
+              225
+            ],
+            [
+              1145,
+              225
+            ]
+          ],
+          "text": "グランネクストシリーズ"
+        },
+        {
+          "confidence": 0.4789506297832342,
+          "id": 10,
+          "polygon_in_resized_crop": [
+            [
+              1705,
+              189
+            ],
+            [
+              1901,
+              189
+            ],
+            [
+              1901,
+              225
+            ],
+            [
+              1705,
+              225
+            ]
+          ],
+          "text": "RロロGAシリーズ"
+        },
+        {
+          "confidence": 0.9998024733845902,
+          "id": 11,
+          "polygon_in_resized_crop": [
+            [
+              24,
+              240
+            ],
+            [
+              102,
+              240
+            ],
+            [
+              102,
+              270
+            ],
+            [
+              24,
+              270
+            ]
+          ],
+          "text": "レサス"
+        },
+        {
+          "confidence": 0.37905581953509865,
+          "id": 12,
+          "polygon_in_resized_crop": [
+            [
+              587,
+              236
+            ],
+            [
+              907,
+              236
+            ],
+            [
+              907,
+              274
+            ],
+            [
+              587,
+              274
+            ]
+          ],
+          "text": "レサス・ウーノ 〔レサスDX}"
+        },
+        {
+          "confidence": 0.8448025949983945,
+          "id": 13,
+          "polygon_in_resized_crop": [
+            [
+              1150,
+              240
+            ],
+            [
+              1260,
+              240
+            ],
+            [
+              1260,
+              272
+            ],
+            [
+              1150,
+              272
+            ]
+          ],
+          "text": "レサスTX"
+        },
+        {
+          "confidence": 0.9830732859819472,
+          "id": 14,
+          "polygon_in_resized_crop": [
+            [
+              1708,
+              238
+            ],
+            [
+              1932,
+              238
+            ],
+            [
+              1932,
+              270
+            ],
+            [
+              1708,
+              270
+            ]
+          ],
+          "text": "ワンダ・ストーン川"
+        },
+        {
+          "confidence": 0.9771136096168274,
+          "id": 15,
+          "polygon_in_resized_crop": [
+            [
+              22,
+              283
+            ],
+            [
+              229,
+              283
+            ],
+            [
+              229,
+              322
+            ],
+            [
+              22,
+              322
+            ]
+          ],
+          "text": "ワンダ・ナチュレ"
+        },
+        {
+          "confidence": 0.987828126708,
+          "id": 16,
+          "polygon_in_resized_crop": [
+            [
+              585,
+              285
+            ],
+            [
+              793,
+              285
+            ],
+            [
+              793,
+              321
+            ],
+            [
+              585,
+              321
+            ]
+          ],
+          "text": "ワンダ・ロイヤル"
+        },
+        {
+          "confidence": 0.9166104953055783,
+          "id": 17,
+          "polygon_in_resized_crop": [
+            [
+              1150,
+              288
+            ],
+            [
+              1272,
+              288
+            ],
+            [
+              1272,
+              316
+            ],
+            [
+              1150,
+              316
+            ]
+          ],
+          "text": "リコロニー"
+        },
+        {
+          "confidence": 0.8026319126007954,
+          "id": 18,
+          "polygon_in_resized_crop": [
+            [
+              1706,
+              288
+            ],
+            [
+              1888,
+              288
+            ],
+            [
+              1888,
+              320
+            ],
+            [
+              1706,
+              320
+            ]
+          ],
+          "text": "スマートメダル"
+        }
+      ],
+      "group": "roof",
+      "inference_seconds": 0.443,
+      "ocr_crop_size": [
+        2278,
+        342
+      ],
+      "page": 1,
+      "recovered_count": 10,
+      "reference_count": 16,
+      "results": [
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "エコ・ウーノ（レサスECO18）"
+        },
+        {
+          "matched_detection_ids": [
+            4
+          ],
+          "recovered": true,
+          "reference_name": "エコ・シンプル"
+        },
+        {
+          "matched_detection_ids": [
+            5
+          ],
+          "recovered": true,
+          "reference_name": "シルバス"
+        },
+        {
+          "matched_detection_ids": [
+            6
+          ],
+          "recovered": true,
+          "reference_name": "シルバスウーノ"
+        },
+        {
+          "matched_detection_ids": [
+            7
+          ],
+          "recovered": true,
+          "reference_name": "シンフォニー"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "シンフォニーグランデ（シンフォニーDX）"
+        },
+        {
+          "matched_detection_ids": [
+            9
+          ],
+          "recovered": true,
+          "reference_name": "グランネクストシリーズ"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ROOGAシリーズ"
+        },
+        {
+          "matched_detection_ids": [
+            11
+          ],
+          "recovered": true,
+          "reference_name": "レサス"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "レサス・ウーノ（レサスDX）"
+        },
+        {
+          "matched_detection_ids": [
+            13
+          ],
+          "recovered": true,
+          "reference_name": "レサスTX"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "ワンダ・ストーンⅡ"
+        },
+        {
+          "matched_detection_ids": [
+            15
+          ],
+          "recovered": true,
+          "reference_name": "ワンダ・ナチュレ"
+        },
+        {
+          "matched_detection_ids": [
+            16
+          ],
+          "recovered": true,
+          "reference_name": "ワンダ・ロイヤル"
+        },
+        {
+          "matched_detection_ids": [
+            17
+          ],
+          "recovered": true,
+          "reference_name": "リコロニー"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "スマートメタル"
+        }
+      ],
+      "scale": 2,
+      "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+      "strict_name_coverage": 0.625,
+      "table": 2
+    },
+    {
+      "crop_box_in_page_pixels": [
+        51,
+        1290,
+        1190,
+        1395
+      ],
+      "crop_sha256": "65b13ffe6c98da927993fbc3b28f8b2331e9c801269941db40fcb274f7f347a8",
+      "detections": [
+        {
+          "confidence": 0.9983160258768609,
+          "id": 1,
+          "polygon_in_resized_crop": [
+            [
+              104,
+              12
+            ],
+            [
+              188,
+              12
+            ],
+            [
+              188,
+              36
+            ],
+            [
+              104,
+              36
+            ]
+          ],
+          "text": "シリーズ名"
+        },
+        {
+          "confidence": 0.931166507307099,
+          "id": 2,
+          "polygon_in_resized_crop": [
+            [
+              400,
+              12
+            ],
+            [
+              452,
+              12
+            ],
+            [
+              452,
+              36
+            ],
+            [
+              400,
+              36
+            ]
+          ],
+          "text": "商品名"
+        },
+        {
+          "confidence": 0.20092017948627472,
+          "id": 3,
+          "polygon_in_resized_crop": [
+            [
+              672,
+              12
+            ],
+            [
+              742,
+              12
+            ],
+            [
+              742,
+              36
+            ],
+            [
+              672,
+              36
+            ]
+          ],
+          "text": "逢装種類"
+        },
+        {
+          "confidence": 0.2271669813885348,
+          "id": 4,
+          "polygon_in_resized_crop": [
+            [
+              960,
+              12
+            ],
+            [
+              1016,
+              12
+            ],
+            [
+              1016,
+              36
+            ],
+            [
+              960,
+              36
+            ]
+          ],
+          "text": "塗装色"
+        },
+        {
+          "confidence": 0.9283543825149536,
+          "id": 5,
+          "polygon_in_resized_crop": [
+            [
+              10,
+              46
+            ],
+            [
+              59,
+              46
+            ],
+            [
+              59,
+              66
+            ],
+            [
+              10,
+              66
+            ]
+          ],
+          "text": "tpeF"
+        },
+        {
+          "confidence": 0.9980889228345727,
+          "id": 6,
+          "polygon_in_resized_crop": [
+            [
+              406,
+              42
+            ],
+            [
+              444,
+              42
+            ],
+            [
+              444,
+              66
+            ],
+            [
+              406,
+              66
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9987217569090869,
+          "id": 7,
+          "polygon_in_resized_crop": [
+            [
+              688,
+              42
+            ],
+            [
+              726,
+              42
+            ],
+            [
+              726,
+              66
+            ],
+            [
+              688,
+              66
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9983748673914666,
+          "id": 8,
+          "polygon_in_resized_crop": [
+            [
+              970,
+              42
+            ],
+            [
+              1004,
+              42
+            ],
+            [
+              1004,
+              66
+            ],
+            [
+              970,
+              66
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9358634948730469,
+          "id": 9,
+          "polygon_in_resized_crop": [
+            [
+              9,
+              75
+            ],
+            [
+              63,
+              75
+            ],
+            [
+              63,
+              95
+            ],
+            [
+              9,
+              95
+            ]
+          ],
+          "text": "tpel"
+        },
+        {
+          "confidence": 0.9986901587589426,
+          "id": 10,
+          "polygon_in_resized_crop": [
+            [
+              408,
+              70
+            ],
+            [
+              444,
+              70
+            ],
+            [
+              444,
+              94
+            ],
+            [
+              408,
+              94
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9926739118307822,
+          "id": 11,
+          "polygon_in_resized_crop": [
+            [
+              691,
+              73
+            ],
+            [
+              723,
+              73
+            ],
+            [
+              723,
+              93
+            ],
+            [
+              691,
+              93
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9983236416174027,
+          "id": 12,
+          "polygon_in_resized_crop": [
+            [
+              972,
+              70
+            ],
+            [
+              1004,
+              70
+            ],
+            [
+              1004,
+              94
+            ],
+            [
+              972,
+              94
+            ]
+          ],
+          "text": "全て"
+        }
+      ],
+      "group": "SOLIDO",
+      "inference_seconds": 0.144,
+      "ocr_crop_size": [
+        1139,
+        105
+      ],
+      "page": 1,
+      "recovered_count": 0,
+      "reference_count": 2,
+      "results": [
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "typeF"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "typeM"
+        }
+      ],
+      "scale": 1,
+      "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+      "strict_name_coverage": 0,
+      "table": 3
+    },
+    {
+      "crop_box_in_page_pixels": [
+        51,
+        1290,
+        1190,
+        1395
+      ],
+      "crop_sha256": "afa74216af5f925ece8fc849fb3dc1e18bdf0b644769f4fa976479d415c9f5cf",
+      "detections": [
+        {
+          "confidence": 0.9990118574715899,
+          "id": 1,
+          "polygon_in_resized_crop": [
+            [
+              205,
+              27
+            ],
+            [
+              377,
+              27
+            ],
+            [
+              377,
+              71
+            ],
+            [
+              205,
+              71
+            ]
+          ],
+          "text": "シリーズ名"
+        },
+        {
+          "confidence": 0.9580368550747643,
+          "id": 2,
+          "polygon_in_resized_crop": [
+            [
+              801,
+              27
+            ],
+            [
+              907,
+              27
+            ],
+            [
+              907,
+              70
+            ],
+            [
+              801,
+              70
+            ]
+          ],
+          "text": "商品名"
+        },
+        {
+          "confidence": 0.8732461929321289,
+          "id": 3,
+          "polygon_in_resized_crop": [
+            [
+              1342,
+              27
+            ],
+            [
+              1484,
+              27
+            ],
+            [
+              1484,
+              70
+            ],
+            [
+              1342,
+              70
+            ]
+          ],
+          "text": "塗装種類"
+        },
+        {
+          "confidence": 0.9173950887674661,
+          "id": 4,
+          "polygon_in_resized_crop": [
+            [
+              1921,
+              27
+            ],
+            [
+              2031,
+              27
+            ],
+            [
+              2031,
+              71
+            ],
+            [
+              1921,
+              71
+            ]
+          ],
+          "text": "塗装色"
+        },
+        {
+          "confidence": 0.8232374787330627,
+          "id": 5,
+          "polygon_in_resized_crop": [
+            [
+              20,
+              90
+            ],
+            [
+              119,
+              90
+            ],
+            [
+              119,
+              135
+            ],
+            [
+              20,
+              135
+            ]
+          ],
+          "text": "tpeF"
+        },
+        {
+          "confidence": 0.9996142095486306,
+          "id": 6,
+          "polygon_in_resized_crop": [
+            [
+              815,
+              85
+            ],
+            [
+              891,
+              85
+            ],
+            [
+              891,
+              129
+            ],
+            [
+              815,
+              129
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9996142095486306,
+          "id": 7,
+          "polygon_in_resized_crop": [
+            [
+              1377,
+              85
+            ],
+            [
+              1453,
+              85
+            ],
+            [
+              1453,
+              129
+            ],
+            [
+              1377,
+              129
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9994408414127465,
+          "id": 8,
+          "polygon_in_resized_crop": [
+            [
+              1939,
+              85
+            ],
+            [
+              2013,
+              85
+            ],
+            [
+              2013,
+              129
+            ],
+            [
+              1939,
+              129
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9044179916381836,
+          "id": 9,
+          "polygon_in_resized_crop": [
+            [
+              18,
+              148
+            ],
+            [
+              125,
+              148
+            ],
+            [
+              125,
+              193
+            ],
+            [
+              18,
+              193
+            ]
+          ],
+          "text": "tpel"
+        },
+        {
+          "confidence": 0.9996142095486306,
+          "id": 10,
+          "polygon_in_resized_crop": [
+            [
+              815,
+              143
+            ],
+            [
+              891,
+              143
+            ],
+            [
+              891,
+              187
+            ],
+            [
+              815,
+              187
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9996142095486306,
+          "id": 11,
+          "polygon_in_resized_crop": [
+            [
+              1377,
+              143
+            ],
+            [
+              1453,
+              143
+            ],
+            [
+              1453,
+              187
+            ],
+            [
+              1377,
+              187
+            ]
+          ],
+          "text": "全て"
+        },
+        {
+          "confidence": 0.9994408414127465,
+          "id": 12,
+          "polygon_in_resized_crop": [
+            [
+              1939,
+              143
+            ],
+            [
+              2013,
+              143
+            ],
+            [
+              2013,
+              187
+            ],
+            [
+              1939,
+              187
+            ]
+          ],
+          "text": "全て"
+        }
+      ],
+      "group": "SOLIDO",
+      "inference_seconds": 0.218,
+      "ocr_crop_size": [
+        2278,
+        210
+      ],
+      "page": 1,
+      "recovered_count": 0,
+      "reference_count": 2,
+      "results": [
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "typeF"
+        },
+        {
+          "matched_detection_ids": [],
+          "recovered": false,
+          "reference_name": "typeM"
+        }
+      ],
+      "scale": 2,
+      "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+      "strict_name_coverage": 0,
+      "table": 3
+    }
+  ],
+  "scope": "Two additional tables from the same PDF; not independent documents",
+  "source_pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+  "timing": "One untimed warm-up per image; CUDA synchronized around timing",
+  "torch_version": "2.11.0+cu128"
+}

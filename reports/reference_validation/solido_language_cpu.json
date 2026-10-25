@@ -1,0 +1,634 @@
+{
+  "data_kind": "solido_recognizer_language_comparison",
+  "scope": "Two Latin series identifiers; development experiment",
+  "reference_basis": "Native PDF extraction",
+  "comparison": "Language configurations within the same CPU environment",
+  "metric": "Exact name recovery from individual OCR boxes",
+  "normalization": "NFKC, whitespace removed, casefold; punctuation retained",
+  "parent_gpu_report_sha256": "0940a4e8df20ff2772047089ec568783825609b8015171a19d1aaa796bc3c373",
+  "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+  "crop_box_in_page_pixels": [
+    51,
+    1290,
+    1190,
+    1395
+  ],
+  "crop_sha256": "afa74216af5f925ece8fc849fb3dc1e18bdf0b644769f4fa976479d415c9f5cf",
+  "ocr_crop_scale": 2,
+  "ocr_crop_size": [
+    2278,
+    210
+  ],
+  "easyocr_version": "1.7.2",
+  "torch_version": "2.14.1+cpu",
+  "python_version": "3.11.17",
+  "runs": [
+    {
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "reference_count": 2,
+      "recovered_count": 0,
+      "strict_name_coverage": 0.0,
+      "inference_seconds": 9.08,
+      "results": [
+        {
+          "reference_name": "typeF",
+          "recovered": false,
+          "matched_detection_ids": []
+        },
+        {
+          "reference_name": "typeM",
+          "recovered": false,
+          "matched_detection_ids": []
+        }
+      ],
+      "detections": [
+        {
+          "id": 1,
+          "text": "シリーズ名",
+          "confidence": 0.9990118574715899,
+          "polygon_in_crop": [
+            [
+              205.0,
+              27.0
+            ],
+            [
+              377.0,
+              27.0
+            ],
+            [
+              377.0,
+              71.0
+            ],
+            [
+              205.0,
+              71.0
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "text": "商品名",
+          "confidence": 0.9580367182120485,
+          "polygon_in_crop": [
+            [
+              801.0,
+              27.0
+            ],
+            [
+              907.0,
+              27.0
+            ],
+            [
+              907.0,
+              70.0
+            ],
+            [
+              801.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "text": "塗装種類",
+          "confidence": 0.8732457756996155,
+          "polygon_in_crop": [
+            [
+              1342.0,
+              27.0
+            ],
+            [
+              1484.0,
+              27.0
+            ],
+            [
+              1484.0,
+              70.0
+            ],
+            [
+              1342.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "id": 4,
+          "text": "塗装色",
+          "confidence": 0.9173951568025593,
+          "polygon_in_crop": [
+            [
+              1921.0,
+              27.0
+            ],
+            [
+              2031.0,
+              27.0
+            ],
+            [
+              2031.0,
+              71.0
+            ],
+            [
+              1921.0,
+              71.0
+            ]
+          ]
+        },
+        {
+          "id": 5,
+          "text": "tpeF",
+          "confidence": 0.8232383728027344,
+          "polygon_in_crop": [
+            [
+              20.0,
+              90.0
+            ],
+            [
+              119.0,
+              90.0
+            ],
+            [
+              119.0,
+              135.0
+            ],
+            [
+              20.0,
+              135.0
+            ]
+          ]
+        },
+        {
+          "id": 6,
+          "text": "全て",
+          "confidence": 0.9996142095486306,
+          "polygon_in_crop": [
+            [
+              815.0,
+              85.0
+            ],
+            [
+              891.0,
+              85.0
+            ],
+            [
+              891.0,
+              129.0
+            ],
+            [
+              815.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 7,
+          "text": "全て",
+          "confidence": 0.9996142095486306,
+          "polygon_in_crop": [
+            [
+              1377.0,
+              85.0
+            ],
+            [
+              1453.0,
+              85.0
+            ],
+            [
+              1453.0,
+              129.0
+            ],
+            [
+              1377.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 8,
+          "text": "全て",
+          "confidence": 0.9994408414127465,
+          "polygon_in_crop": [
+            [
+              1939.0,
+              85.0
+            ],
+            [
+              2013.0,
+              85.0
+            ],
+            [
+              2013.0,
+              129.0
+            ],
+            [
+              1939.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 9,
+          "text": "tpel",
+          "confidence": 0.9044176936149597,
+          "polygon_in_crop": [
+            [
+              18.0,
+              148.0
+            ],
+            [
+              125.0,
+              148.0
+            ],
+            [
+              125.0,
+              193.0
+            ],
+            [
+              18.0,
+              193.0
+            ]
+          ]
+        },
+        {
+          "id": 10,
+          "text": "全て",
+          "confidence": 0.9996142095486306,
+          "polygon_in_crop": [
+            [
+              815.0,
+              143.0
+            ],
+            [
+              891.0,
+              143.0
+            ],
+            [
+              891.0,
+              187.0
+            ],
+            [
+              815.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "id": 11,
+          "text": "全て",
+          "confidence": 0.9996142095486306,
+          "polygon_in_crop": [
+            [
+              1377.0,
+              143.0
+            ],
+            [
+              1453.0,
+              143.0
+            ],
+            [
+              1453.0,
+              187.0
+            ],
+            [
+              1377.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "id": 12,
+          "text": "全て",
+          "confidence": 0.9994408414127465,
+          "polygon_in_crop": [
+            [
+              1939.0,
+              143.0
+            ],
+            [
+              2013.0,
+              143.0
+            ],
+            [
+              2013.0,
+              187.0
+            ],
+            [
+              1939.0,
+              187.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "languages": [
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "reference_count": 2,
+      "recovered_count": 2,
+      "strict_name_coverage": 1.0,
+      "inference_seconds": 5.688,
+      "results": [
+        {
+          "reference_name": "typeF",
+          "recovered": true,
+          "matched_detection_ids": [
+            5
+          ]
+        },
+        {
+          "reference_name": "typeM",
+          "recovered": true,
+          "matched_detection_ids": [
+            9
+          ]
+        }
+      ],
+      "detections": [
+        {
+          "id": 1,
+          "text": "~U-{r",
+          "confidence": 0.1986199459641988,
+          "polygon_in_crop": [
+            [
+              205.0,
+              27.0
+            ],
+            [
+              377.0,
+              27.0
+            ],
+            [
+              377.0,
+              71.0
+            ],
+            [
+              205.0,
+              71.0
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "text": "68z",
+          "confidence": 0.13193768229787506,
+          "polygon_in_crop": [
+            [
+              801.0,
+              27.0
+            ],
+            [
+              907.0,
+              27.0
+            ],
+            [
+              907.0,
+              70.0
+            ],
+            [
+              801.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "text": "220634",
+          "confidence": 0.0621220607073123,
+          "polygon_in_crop": [
+            [
+              1342.0,
+              27.0
+            ],
+            [
+              1484.0,
+              27.0
+            ],
+            [
+              1484.0,
+              70.0
+            ],
+            [
+              1342.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "id": 4,
+          "text": "2#8",
+          "confidence": 0.3821775602551417,
+          "polygon_in_crop": [
+            [
+              1921.0,
+              27.0
+            ],
+            [
+              2031.0,
+              27.0
+            ],
+            [
+              2031.0,
+              71.0
+            ],
+            [
+              1921.0,
+              71.0
+            ]
+          ]
+        },
+        {
+          "id": 5,
+          "text": "typeF",
+          "confidence": 0.9978139784917814,
+          "polygon_in_crop": [
+            [
+              20.0,
+              90.0
+            ],
+            [
+              119.0,
+              90.0
+            ],
+            [
+              119.0,
+              135.0
+            ],
+            [
+              20.0,
+              135.0
+            ]
+          ]
+        },
+        {
+          "id": 6,
+          "text": "27",
+          "confidence": 0.5310005897379432,
+          "polygon_in_crop": [
+            [
+              815.0,
+              85.0
+            ],
+            [
+              891.0,
+              85.0
+            ],
+            [
+              891.0,
+              129.0
+            ],
+            [
+              815.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 7,
+          "text": "27",
+          "confidence": 0.5310005897379432,
+          "polygon_in_crop": [
+            [
+              1377.0,
+              85.0
+            ],
+            [
+              1453.0,
+              85.0
+            ],
+            [
+              1453.0,
+              129.0
+            ],
+            [
+              1377.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 8,
+          "text": "27",
+          "confidence": 0.5815795001861203,
+          "polygon_in_crop": [
+            [
+              1939.0,
+              85.0
+            ],
+            [
+              2013.0,
+              85.0
+            ],
+            [
+              2013.0,
+              129.0
+            ],
+            [
+              1939.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "id": 9,
+          "text": "typeM",
+          "confidence": 0.9849277014011067,
+          "polygon_in_crop": [
+            [
+              18.0,
+              148.0
+            ],
+            [
+              125.0,
+              148.0
+            ],
+            [
+              125.0,
+              193.0
+            ],
+            [
+              18.0,
+              193.0
+            ]
+          ]
+        },
+        {
+          "id": 10,
+          "text": "27",
+          "confidence": 0.5310005897379432,
+          "polygon_in_crop": [
+            [
+              815.0,
+              143.0
+            ],
+            [
+              891.0,
+              143.0
+            ],
+            [
+              891.0,
+              187.0
+            ],
+            [
+              815.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "id": 11,
+          "text": "27",
+          "confidence": 0.5310005897379432,
+          "polygon_in_crop": [
+            [
+              1377.0,
+              143.0
+            ],
+            [
+              1453.0,
+              143.0
+            ],
+            [
+              1453.0,
+              187.0
+            ],
+            [
+              1377.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "id": 12,
+          "text": "27",
+          "confidence": 0.5815795001861203,
+          "polygon_in_crop": [
+            [
+              1939.0,
+              143.0
+            ],
+            [
+              2013.0,
+              143.0
+            ],
+            [
+              2013.0,
+              187.0
+            ],
+            [
+              1939.0,
+              187.0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
