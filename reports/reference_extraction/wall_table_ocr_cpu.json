@@ -1,0 +1,943 @@
+{
+  "data_kind": "real_pdf_rasterized_table_ocr_experiment",
+  "reference_basis": "Native PDF extraction; not independent human ground truth",
+  "scope": "One table selected using native PDF coordinates",
+  "metric": "Exact reference-name recovery from individual OCR boxes",
+  "normalization": "NFKC, whitespace removed, casefold; punctuation retained",
+  "source_pdf_sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+  "source_image_sha256": "bff00fe9bbcd1d064e441b7dfadddb87129144209bbf1d58b05efd01f7deb7be",
+  "inspection_sha256": "b302bf809ae8e8b6d133a1c011769e94fb40f6a7271d4a5a2bf187e853251f67",
+  "page": 1,
+  "table": 1,
+  "crop_box_in_page_pixels": [
+    51,
+    416,
+    1190,
+    1047
+  ],
+  "crop_sha256": "02a63522d2e0c1b09abe38721ffa5ee10048a8eb90fd6f00f2725256b82937de",
+  "easyocr_version": "1.7.2",
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "languages": [
+    "ja",
+    "en"
+  ],
+  "inference_seconds": 14.054,
+  "reference_count": 21,
+  "recovered_count": 11,
+  "strict_name_coverage": 0.5238095238095238,
+  "results": [
+    {
+      "reference_name": "レジェール",
+      "recovered": true,
+      "matched_detection_ids": [
+        6
+      ]
+    },
+    {
+      "reference_name": "フィルテクト",
+      "recovered": true,
+      "matched_detection_ids": [
+        8
+      ]
+    },
+    {
+      "reference_name": "フラットデザインパネル",
+      "recovered": true,
+      "matched_detection_ids": [
+        10
+      ]
+    },
+    {
+      "reference_name": "ネオロック25",
+      "recovered": true,
+      "matched_detection_ids": [
+        12
+      ]
+    },
+    {
+      "reference_name": "ネオロック21",
+      "recovered": true,
+      "matched_detection_ids": [
+        13
+      ]
+    },
+    {
+      "reference_name": "ネオロック18",
+      "recovered": true,
+      "matched_detection_ids": [
+        15
+      ]
+    },
+    {
+      "reference_name": "ネオロック16",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "ネオロック15",
+      "recovered": true,
+      "matched_detection_ids": [
+        18
+      ]
+    },
+    {
+      "reference_name": "セラディール18",
+      "recovered": true,
+      "matched_detection_ids": [
+        19
+      ]
+    },
+    {
+      "reference_name": "セラディール16",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "セラディール14",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "セラディール14広幅",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "セラディール13",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "エクセレージ16",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "エクセレージ15",
+      "recovered": true,
+      "matched_detection_ids": [
+        24
+      ]
+    },
+    {
+      "reference_name": "エクセレージ14",
+      "recovered": true,
+      "matched_detection_ids": [
+        25
+      ]
+    },
+    {
+      "reference_name": "エクセレージ14広幅",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "エクセレージ12",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "エクセレージ12広幅",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "はる・一番",
+      "recovered": false,
+      "matched_detection_ids": []
+    },
+    {
+      "reference_name": "ＬＡＰ-ＷＡＬＬ",
+      "recovered": true,
+      "matched_detection_ids": [
+        32
+      ]
+    }
+  ],
+  "detections": [
+    {
+      "id": 1,
+      "text": "シリーズ名",
+      "confidence": 0.988553508741891,
+      "polygon_in_crop": [
+        [
+          77.0,
+          13.0
+        ],
+        [
+          159.0,
+          13.0
+        ],
+        [
+          159.0,
+          33.0
+        ],
+        [
+          77.0,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "text": "商品板厚Imm}",
+      "confidence": 0.5036266873340274,
+      "polygon_in_crop": [
+        [
+          295.0,
+          13.0
+        ],
+        [
+          393.0,
+          13.0
+        ],
+        [
+          393.0,
+          33.0
+        ],
+        [
+          295.0,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "text": "商品名",
+      "confidence": 0.9171371725877898,
+      "polygon_in_crop": [
+        [
+          540.0,
+          12.0
+        ],
+        [
+          592.0,
+          12.0
+        ],
+        [
+          592.0,
+          36.0
+        ],
+        [
+          540.0,
+          36.0
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "text": "塗装種類",
+      "confidence": 0.31904059648513794,
+      "polygon_in_crop": [
+        [
+          757.0,
+          13.0
+        ],
+        [
+          827.0,
+          13.0
+        ],
+        [
+          827.0,
+          33.0
+        ],
+        [
+          757.0,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "text": "塗装色",
+      "confidence": 0.27951676939688885,
+      "polygon_in_crop": [
+        [
+          991.0,
+          13.0
+        ],
+        [
+          1043.0,
+          13.0
+        ],
+        [
+          1043.0,
+          33.0
+        ],
+        [
+          991.0,
+          33.0
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "text": "レジェール",
+      "confidence": 0.9929550807866283,
+      "polygon_in_crop": [
+        [
+          13.0,
+          43.0
+        ],
+        [
+          93.0,
+          43.0
+        ],
+        [
+          93.0,
+          61.0
+        ],
+        [
+          13.0,
+          61.0
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "text": "21",
+      "confidence": 0.9976918080592697,
+      "polygon_in_crop": [
+        [
+          331.0,
+          43.0
+        ],
+        [
+          353.0,
+          43.0
+        ],
+        [
+          353.0,
+          63.0
+        ],
+        [
+          331.0,
+          63.0
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "text": "フィルテクト",
+      "confidence": 0.999428758879636,
+      "polygon_in_crop": [
+        [
+          11.0,
+          71.0
+        ],
+        [
+          107.0,
+          71.0
+        ],
+        [
+          107.0,
+          91.0
+        ],
+        [
+          11.0,
+          91.0
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "text": "15",
+      "confidence": 0.7742937242241621,
+      "polygon_in_crop": [
+        [
+          333.0,
+          71.0
+        ],
+        [
+          355.0,
+          71.0
+        ],
+        [
+          355.0,
+          89.0
+        ],
+        [
+          333.0,
+          89.0
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "text": "フラットデザインパネル",
+      "confidence": 0.9953017076799378,
+      "polygon_in_crop": [
+        [
+          10.0,
+          96.0
+        ],
+        [
+          188.0,
+          96.0
+        ],
+        [
+          188.0,
+          120.0
+        ],
+        [
+          10.0,
+          120.0
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "text": "15",
+      "confidence": 0.7140117491745321,
+      "polygon_in_crop": [
+        [
+          333.0,
+          97.0
+        ],
+        [
+          355.0,
+          97.0
+        ],
+        [
+          355.0,
+          117.0
+        ],
+        [
+          333.0,
+          117.0
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "text": "ネオロック25",
+      "confidence": 0.9916969423620537,
+      "polygon_in_crop": [
+        [
+          11.0,
+          123.0
+        ],
+        [
+          110.0,
+          123.0
+        ],
+        [
+          110.0,
+          148.0
+        ],
+        [
+          11.0,
+          148.0
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "text": "ネオロック21",
+      "confidence": 0.860501458309676,
+      "polygon_in_crop": [
+        [
+          11.0,
+          153.0
+        ],
+        [
+          109.0,
+          153.0
+        ],
+        [
+          109.0,
+          173.0
+        ],
+        [
+          11.0,
+          173.0
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "text": "2",
+      "confidence": 0.03623318908593376,
+      "polygon_in_crop": [
+        [
+          330.0,
+          124.0
+        ],
+        [
+          354.0,
+          124.0
+        ],
+        [
+          354.0,
+          176.0
+        ],
+        [
+          330.0,
+          176.0
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "text": "ネオロック18",
+      "confidence": 0.9735234587928971,
+      "polygon_in_crop": [
+        [
+          11.0,
+          181.0
+        ],
+        [
+          111.0,
+          181.0
+        ],
+        [
+          111.0,
+          201.0
+        ],
+        [
+          11.0,
+          201.0
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "text": "ネオロック1",
+      "confidence": 0.5709199488575865,
+      "polygon_in_crop": [
+        [
+          13.0,
+          209.0
+        ],
+        [
+          111.0,
+          209.0
+        ],
+        [
+          111.0,
+          229.0
+        ],
+        [
+          13.0,
+          229.0
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "text": "18",
+      "confidence": 0.9377394119087208,
+      "polygon_in_crop": [
+        [
+          332.0,
+          180.0
+        ],
+        [
+          356.0,
+          180.0
+        ],
+        [
+          356.0,
+          232.0
+        ],
+        [
+          332.0,
+          232.0
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "text": "ネオロック15",
+      "confidence": 0.9955447674860111,
+      "polygon_in_crop": [
+        [
+          11.0,
+          237.0
+        ],
+        [
+          109.0,
+          237.0
+        ],
+        [
+          109.0,
+          257.0
+        ],
+        [
+          11.0,
+          257.0
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "text": "セラディール18",
+      "confidence": 0.9544978365932865,
+      "polygon_in_crop": [
+        [
+          11.0,
+          265.0
+        ],
+        [
+          127.0,
+          265.0
+        ],
+        [
+          127.0,
+          285.0
+        ],
+        [
+          11.0,
+          285.0
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "text": "セラディール15",
+      "confidence": 0.8588871515041113,
+      "polygon_in_crop": [
+        [
+          11.0,
+          292.0
+        ],
+        [
+          126.0,
+          292.0
+        ],
+        [
+          126.0,
+          312.0
+        ],
+        [
+          11.0,
+          312.0
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "text": "屋三",
+      "confidence": 0.07004925088904519,
+      "polygon_in_crop": [
+        [
+          2.0,
+          312.0
+        ],
+        [
+          166.0,
+          312.0
+        ],
+        [
+          166.0,
+          432.0
+        ],
+        [
+          2.0,
+          432.0
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "text": "意",
+      "confidence": 0.02135005192285022,
+      "polygon_in_crop": [
+        [
+          329.0,
+          291.0
+        ],
+        [
+          355.0,
+          291.0
+        ],
+        [
+          355.0,
+          425.0
+        ],
+        [
+          329.0,
+          425.0
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "text": "H",
+      "confidence": 0.8036350755087938,
+      "polygon_in_crop": [
+        [
+          501.0,
+          0.0
+        ],
+        [
+          1082.0,
+          0.0
+        ],
+        [
+          1082.0,
+          631.0
+        ],
+        [
+          501.0,
+          631.0
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "text": "エクセレージ15",
+      "confidence": 0.9036824946441095,
+      "polygon_in_crop": [
+        [
+          11.0,
+          433.0
+        ],
+        [
+          125.0,
+          433.0
+        ],
+        [
+          125.0,
+          453.0
+        ],
+        [
+          11.0,
+          453.0
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "text": "エクセレージ14",
+      "confidence": 0.9278090726023775,
+      "polygon_in_crop": [
+        [
+          13.0,
+          463.0
+        ],
+        [
+          125.0,
+          463.0
+        ],
+        [
+          125.0,
+          479.0
+        ],
+        [
+          13.0,
+          479.0
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "text": "エクセレージム広幅",
+      "confidence": 0.11335634955520896,
+      "polygon_in_crop": [
+        [
+          10.0,
+          486.0
+        ],
+        [
+          160.0,
+          486.0
+        ],
+        [
+          160.0,
+          538.0
+        ],
+        [
+          10.0,
+          538.0
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "text": "喜",
+      "confidence": 0.010888537008612253,
+      "polygon_in_crop": [
+        [
+          330.0,
+          430.0
+        ],
+        [
+          354.0,
+          430.0
+        ],
+        [
+          354.0,
+          568.0
+        ],
+        [
+          330.0,
+          568.0
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "text": "エクセレージィ2広幅",
+      "confidence": 0.4285884823788291,
+      "polygon_in_crop": [
+        [
+          13.0,
+          543.0
+        ],
+        [
+          157.0,
+          543.0
+        ],
+        [
+          157.0,
+          563.0
+        ],
+        [
+          13.0,
+          563.0
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "text": "はる",
+      "confidence": 0.998672716705492,
+      "polygon_in_crop": [
+        [
+          11.0,
+          571.0
+        ],
+        [
+          43.0,
+          571.0
+        ],
+        [
+          43.0,
+          591.0
+        ],
+        [
+          11.0,
+          591.0
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "text": "一番",
+      "confidence": 0.996896706784504,
+      "polygon_in_crop": [
+        [
+          61.0,
+          573.0
+        ],
+        [
+          91.0,
+          573.0
+        ],
+        [
+          91.0,
+          591.0
+        ],
+        [
+          61.0,
+          591.0
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "text": "15",
+      "confidence": 0.3967216427292218,
+      "polygon_in_crop": [
+        [
+          333.0,
+          571.0
+        ],
+        [
+          355.0,
+          571.0
+        ],
+        [
+          355.0,
+          591.0
+        ],
+        [
+          333.0,
+          591.0
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "text": "LAP-WALL",
+      "confidence": 0.9698219766922872,
+      "polygon_in_crop": [
+        [
+          13.0,
+          599.0
+        ],
+        [
+          127.0,
+          599.0
+        ],
+        [
+          127.0,
+          619.0
+        ],
+        [
+          13.0,
+          619.0
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "text": "52,5.5 5 7",
+      "confidence": 0.35365294078630316,
+      "polygon_in_crop": [
+        [
+          287.0,
+          599.0
+        ],
+        [
+          399.0,
+          599.0
+        ],
+        [
+          399.0,
+          619.0
+        ],
+        [
+          287.0,
+          619.0
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "text": "全て",
+      "confidence": 0.6998992923182766,
+      "polygon_in_crop": [
+        [
+          1001.0,
+          599.0
+        ],
+        [
+          1031.0,
+          599.0
+        ],
+        [
+          1031.0,
+          619.0
+        ],
+        [
+          1001.0,
+          619.0
+        ]
+      ]
+    }
+  ]
+}
