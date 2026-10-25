@@ -16,6 +16,8 @@ def pdf_review_key(record):
         "query_id": record["query"]["query_id"],
         "extraction_method": record["source"]["extraction_method"],
     }
+    if record["source"].get("ocr_result_sha256"):
+        identity["ocr_result_sha256"] = record["source"]["ocr_result_sha256"]
     return hashlib.sha256(
         json.dumps(identity, sort_keys=True).encode("utf-8")
     ).hexdigest()

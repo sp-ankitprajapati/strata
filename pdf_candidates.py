@@ -15,14 +15,33 @@ def build_pdf_candidates(analysis):
         "page_number": page,
         "coordinate_system": analysis["coordinate_system"],
     }
+    ocr = analysis.get("ocr") if analysis.get("ocr_used") else None
+    if ocr:
+        origin["ocr_result_sha256"] = ocr["result_sha256"]
+        origin["ocr_image_sha256"] = ocr["raster"]["image_sha256"]
     output = {"candidates": [], "conditional_rules": [], "skipped_tables": []}
 
     for number, record in enumerate(extract_schedule(analysis["text"]), 1):
         record = deepcopy(record)
         record["query"]["query_id"] = f"pdf-p{page}-item{number}"
         record["source"] = {
-            **origin, "extraction_method": "labelled_block_rules"
+            **origin,
+            "extraction_method": (
+                "ocr_labelled_block_rules" if ocr else "labelled_block_rules"
+            ),
         }
+        if ocr:
+            lines = [
+                ocr["lines"][line["line"] - 1] for line in record["source_lines"]
+            ]
+            ids = {i for line in lines for i in line["detection_ids"]}
+            record["ocr_evidence"] = {
+                "engine_info": deepcopy(ocr["engine_info"]),
+                "lines": deepcopy(lines),
+                "detections": deepcopy([
+                    d for d in ocr["detections"] if d["id"] in ids
+                ]),
+            }
         output["candidates"].append(record)
 
     for number, table in enumerate(analysis["tables"], 1):

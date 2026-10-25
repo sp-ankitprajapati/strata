@@ -7,11 +7,13 @@ import streamlit as st
 
 from pdf_processing import inspect_pdf_page, pdf_page_count
 from pdf_candidates import build_pdf_candidates, match_pdf_candidate
+from ocr_worker import run_isolated_ocr
 from pdf_review import pdf_review_key, save_pdf_review
 from review_history import load_history
 
 
 ROOT = Path(__file__).resolve().parents[1]
+st.session_state.setdefault("pdf_ocr_latest", None)
 
 
 @st.cache_data(max_entries=4, show_spinner=False)
@@ -24,12 +26,17 @@ def cached_inspection(content, page_number):
     return inspect_pdf_page(content, page_number)
 
 
+@st.cache_data(max_entries=2, show_spinner=False)
+def cached_ocr_page(content, page_number):
+    return run_isolated_ocr(content, page_number)
+
+
 st.title("Process PDF")
 st.caption("Select a page, inspect its text and tables, and export the evidence.")
 
 source = st.segmented_control(
     "Document source",
-    ["Project example", "Upload PDF"],
+    ["Project example", "Scanned schedule example", "Upload PDF"],
     default="Project example",
     key="pdf_document_source",
 )
@@ -42,6 +49,15 @@ if source == "Project example":
     content = path.read_bytes()
     filename = "KMEW manufacturer reference"
     origin = "project_example"
+elif source == "Scanned schedule example":
+    path = ROOT / "data/raw/synthetic_schedule_scan.pdf"
+    if not path.exists():
+        st.info("Run python create_scan_example.py to prepare this synthetic example.")
+        st.stop()
+    content = path.read_bytes()
+    filename = "Synthetic schedule scan"
+    origin = "synthetic_scan_example"
+    st.warning("Synthetic example for checking the scanned-PDF workflow.")
 elif source == "Upload PDF":
     uploaded = st.file_uploader(
         "Choose a PDF",
@@ -85,6 +101,8 @@ except Exception as error:
     st.error(f"Could not process this page: {error}")
     st.stop()
 
+native_analysis = analysis
+
 st.caption(
     f"{filename} · Page {page_number}/{total} · "
     f"{len(analysis['text'])} characters · "
@@ -114,9 +132,51 @@ with right:
     else:
         st.info("No selectable text was found. This page may need OCR.")
 
+text_source = st.segmented_control(
+    "Text source for matching", ["Native PDF", "OCR"],
+    default="Native PDF", key=f"pdf_text_source_{fingerprint}_{page_number}",
+)
+if text_source == "OCR":
+    st.caption(
+        "Japanese-English OCR runs on CPU when requested. "
+        "This version extracts labelled item blocks; scanned tables are not reconstructed."
+    )
+    if st.button("Run OCR", key=f"pdf_run_ocr_{fingerprint}_{page_number}"):
+        try:
+            with st.spinner("Reading this page with OCR..."):
+                ocr_analysis = cached_ocr_page(content, int(page_number))
+            st.session_state.pdf_ocr_latest = ocr_analysis
+        except Exception as error:
+            st.error(f"OCR did not complete: {error}")
+            st.stop()
+    latest_ocr = st.session_state.pdf_ocr_latest
+    if not latest_ocr or (
+        latest_ocr["pdf_sha256"] != fingerprint
+        or latest_ocr["page_number"] != int(page_number)
+    ):
+        st.info("Click Run OCR to prepare text for this page.")
+        st.stop()
+    analysis = latest_ocr
+    st.caption(
+        f"OCR text boxes: {len(analysis['ocr']['detections'])} · "
+        f"Recorded inference time: {analysis['ocr']['inference_seconds']:.1f} seconds"
+    )
+    st.text_area(
+        "OCR text used for matching", value=analysis["text"], height=320,
+        disabled=True, key=f"pdf_ocr_text_{analysis['ocr']['result_sha256']}",
+    )
+    with st.expander("OCR boxes, confidence scores and model details"):
+        st.json(analysis["ocr"])
+elif text_source != "Native PDF":
+    st.info("Select a text source to continue.")
+    st.stop()
+
 st.subheader("Table candidates")
 if not analysis["tables"]:
-    st.caption("No tables were detected from PDF lines.")
+    st.caption(
+        "Scanned tables are not reconstructed in this OCR path."
+        if analysis["ocr_used"] else "No tables were detected from PDF lines."
+    )
 
 for number, table in enumerate(analysis["tables"], start=1):
     with st.expander(f"Table {number} · {len(table['rows'])} rows"):
@@ -126,6 +186,7 @@ export = {
     "document_origin": origin,
     "document_name": filename,
     "analysis": analysis,
+    "native_analysis": native_analysis,
 }
 
 st.download_button(
@@ -166,7 +227,8 @@ if results:
             f"{i + 1}. {results[i]['query']['product_name'] or 'Missing product name'}"
             f" · {results[i].get('table_evidence', {}).get('group', 'Labelled item')}"
         ),
-        key=f"pdf_candidate_{fingerprint}_{page_number}",
+        key=(f"pdf_candidate_{fingerprint}_{page_number}_"
+             f"{analysis.get('ocr', {}).get('result_sha256', 'native')}"),
     )
     selected = results[selected_index]
     st.write("Reference status:", selected["decision"]["status"])
@@ -217,7 +279,9 @@ if results:
     with st.form(f"pdf_review_{record_key}"):
         kind = st.segmented_control(
             "Review type", ["Evidence-based review", "Synthetic test"],
-            default="Evidence-based review", key=f"pdf_kind_{record_key}",
+            default=("Synthetic test" if origin == "synthetic_scan_example"
+                     else "Evidence-based review"),
+            key=f"pdf_kind_{record_key}",
         )
         product = st.text_input(
             "Product name", value=defaults.get("product_name") or "",
@@ -252,6 +316,7 @@ if results:
             "document_name": filename,
             "raw_page_text": analysis["text"],
             "conditional_rules": extracted["conditional_rules"],
+            "text_extraction_method": analysis["extraction_method"],
         }
         try:
             event = save_pdf_review(
