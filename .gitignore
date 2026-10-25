@@ -5,3 +5,5 @@ data/processed/
 .venv-tools/
 .venv-ocr/
 .models/
+.venv-app/
+data/reviews/
