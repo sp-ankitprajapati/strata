@@ -1,0 +1,147 @@
+{
+  "data_kind": "synthetic_schedule_image",
+  "source_file": "examples/synthetic_schedule.txt",
+  "source_sha256": "4ce1289789d56551af6cb35019ebebdb31ad9fe434dbde483210f022dc9fa3aa",
+  "image_sha256": "25e4e3802bade571c10488af90c6702389340d0ed8556c81adb180fcbe6b6c70",
+  "image_size": [
+    1400,
+    1080
+  ],
+  "font_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+  "font_license_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/OFL.txt",
+  "font_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+  "font_size": 36,
+  "font_weight": 400,
+  "lines": [
+    {
+      "source_line": 1,
+      "text": "Data type: synthetic",
+      "box": [
+        60,
+        60,
+        392,
+        96
+      ]
+    },
+    {
+      "source_line": 3,
+      "text": "Item: S-001",
+      "box": [
+        60,
+        180,
+        249,
+        206
+      ]
+    },
+    {
+      "source_line": 4,
+      "text": "Product: ゴールデン モエンサイディング",
+      "box": [
+        60,
+        240,
+        722,
+        274
+      ]
+    },
+    {
+      "source_line": 5,
+      "text": "Manufacturer: Nichiha",
+      "box": [
+        60,
+        300,
+        432,
+        329
+      ]
+    },
+    {
+      "source_line": 6,
+      "text": "Manufacture month: 1978-06",
+      "box": [
+        60,
+        360,
+        542,
+        389
+      ]
+    },
+    {
+      "source_line": 8,
+      "text": "Item: S-002",
+      "box": [
+        60,
+        480,
+        249,
+        506
+      ]
+    },
+    {
+      "source_line": 9,
+      "text": "Product: モエンサイディング-M",
+      "box": [
+        60,
+        540,
+        575,
+        574
+      ]
+    },
+    {
+      "source_line": 10,
+      "text": "Manufacturer: Nichiha",
+      "box": [
+        60,
+        600,
+        432,
+        629
+      ]
+    },
+    {
+      "source_line": 11,
+      "text": "Manufacture month: 1995-08",
+      "box": [
+        60,
+        660,
+        542,
+        689
+      ]
+    },
+    {
+      "source_line": 13,
+      "text": "Item: S-003",
+      "box": [
+        60,
+        780,
+        249,
+        806
+      ]
+    },
+    {
+      "source_line": 14,
+      "text": "Product: モエンサイディング-M",
+      "box": [
+        60,
+        840,
+        575,
+        874
+      ]
+    },
+    {
+      "source_line": 15,
+      "text": "Manufacturer: Nichiha",
+      "box": [
+        60,
+        900,
+        432,
+        929
+      ]
+    },
+    {
+      "source_line": 16,
+      "text": "Installation year: 1995",
+      "box": [
+        60,
+        960,
+        428,
+        996
+      ]
+    }
+  ]
+}

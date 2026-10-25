@@ -1,0 +1,13 @@
+Datatypesynthetic
+Item:S-OO1
+Product: ゴールデン モエンサイディング
+Manufacturer: Nichiha
+Manufacturemonth:1978-06
+Item:S-OO2
+Product: モエンサイディング-M
+Manufacturer: Nichiha
+Manufacturemonth:1995-08
+Item:S-0O3
+Product: モエンサイディング-M
+Manufacturer: Nichiha
+Installationyear:1995

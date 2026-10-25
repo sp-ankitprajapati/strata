@@ -1,0 +1,260 @@
+{
+  "data_kind": "synthetic_schedule_ocr_evaluation",
+  "scope": "One clean development image; not real-drawing accuracy",
+  "normalization": "NFKC, casefold, whitespace collapsed; punctuation retained",
+  "line_reconstruction": "50% vertical overlap, then left-to-right",
+  "image_sha256": "25e4e3802bade571c10488af90c6702389340d0ed8556c81adb180fcbe6b6c70",
+  "ocr_predictions_sha256": "9da6e58a041fd88bbad269268af9465e5f9a34f2dd435873a5ffae4e54c3653d",
+  "extractor_sha256": "681c85277f12840f09d4cf9ac9fe2668f2e801e58b9fd555da77a651276667d8",
+  "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+  "scores": {
+    "cer_with_spaces": {
+      "edits": 17,
+      "reference_characters": 267,
+      "cer": 0.06367041198501873
+    },
+    "cer_without_spaces": {
+      "edits": 6,
+      "reference_characters": 237,
+      "cer": 0.02531645569620253
+    }
+  },
+  "reconstructed_lines": [
+    {
+      "text": "Datatypesynthetic",
+      "detection_ids": [
+        1
+      ]
+    },
+    {
+      "text": "Item:S-OO1",
+      "detection_ids": [
+        2
+      ]
+    },
+    {
+      "text": "Product: ゴールデン モエンサイディング",
+      "detection_ids": [
+        3
+      ]
+    },
+    {
+      "text": "Manufacturer: Nichiha",
+      "detection_ids": [
+        4
+      ]
+    },
+    {
+      "text": "Manufacturemonth:1978-06",
+      "detection_ids": [
+        5
+      ]
+    },
+    {
+      "text": "Item:S-OO2",
+      "detection_ids": [
+        6
+      ]
+    },
+    {
+      "text": "Product: モエンサイディング-M",
+      "detection_ids": [
+        7
+      ]
+    },
+    {
+      "text": "Manufacturer: Nichiha",
+      "detection_ids": [
+        8
+      ]
+    },
+    {
+      "text": "Manufacturemonth:1995-08",
+      "detection_ids": [
+        9
+      ]
+    },
+    {
+      "text": "Item:S-0O3",
+      "detection_ids": [
+        10
+      ]
+    },
+    {
+      "text": "Product: モエンサイディング-M",
+      "detection_ids": [
+        11
+      ]
+    },
+    {
+      "text": "Manufacturer: Nichiha",
+      "detection_ids": [
+        12
+      ]
+    },
+    {
+      "text": "Installationyear:1995",
+      "detection_ids": [
+        13
+      ]
+    }
+  ],
+  "results": [
+    {
+      "query": {
+        "query_id": "schedule-001",
+        "product_name": "ゴールデン モエンサイディング",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null
+      },
+      "item_label": "S-OO1",
+      "source_lines": [
+        {
+          "line": 2,
+          "text": "Item:S-OO1"
+        },
+        {
+          "line": 3,
+          "text": "Product: ゴールデン モエンサイディング"
+        },
+        {
+          "line": 4,
+          "text": "Manufacturer: Nichiha"
+        },
+        {
+          "line": 5,
+          "text": "Manufacturemonth:1978-06"
+        }
+      ],
+      "field_evidence": {
+        "product_name": [
+          {
+            "line": 3,
+            "value": "ゴールデン モエンサイディング"
+          }
+        ],
+        "manufacturer": [
+          {
+            "line": 4,
+            "value": "Nichiha"
+          }
+        ]
+      },
+      "issues": [],
+      "decision": {
+        "status": "unresolved",
+        "reason": "manufacture_month_missing",
+        "matched_record_id": null,
+        "candidate_record_ids": [
+          "nichiha-golden-moen"
+        ],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "schedule-002",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null
+      },
+      "item_label": "S-OO2",
+      "source_lines": [
+        {
+          "line": 6,
+          "text": "Item:S-OO2"
+        },
+        {
+          "line": 7,
+          "text": "Product: モエンサイディング-M"
+        },
+        {
+          "line": 8,
+          "text": "Manufacturer: Nichiha"
+        },
+        {
+          "line": 9,
+          "text": "Manufacturemonth:1995-08"
+        }
+      ],
+      "field_evidence": {
+        "product_name": [
+          {
+            "line": 7,
+            "value": "モエンサイディング-M"
+          }
+        ],
+        "manufacturer": [
+          {
+            "line": 8,
+            "value": "Nichiha"
+          }
+        ]
+      },
+      "issues": [],
+      "decision": {
+        "status": "unresolved",
+        "reason": "manufacture_month_missing",
+        "matched_record_id": null,
+        "candidate_record_ids": [
+          "nichiha-moen-m"
+        ],
+        "source_urls": []
+      },
+      "suggestions": []
+    },
+    {
+      "query": {
+        "query_id": "schedule-003",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null
+      },
+      "item_label": "S-0O3",
+      "source_lines": [
+        {
+          "line": 10,
+          "text": "Item:S-0O3"
+        },
+        {
+          "line": 11,
+          "text": "Product: モエンサイディング-M"
+        },
+        {
+          "line": 12,
+          "text": "Manufacturer: Nichiha"
+        },
+        {
+          "line": 13,
+          "text": "Installationyear:1995"
+        }
+      ],
+      "field_evidence": {
+        "product_name": [
+          {
+            "line": 11,
+            "value": "モエンサイディング-M"
+          }
+        ],
+        "manufacturer": [
+          {
+            "line": 12,
+            "value": "Nichiha"
+          }
+        ]
+      },
+      "issues": [],
+      "decision": {
+        "status": "unresolved",
+        "reason": "manufacture_month_missing",
+        "matched_record_id": null,
+        "candidate_record_ids": [
+          "nichiha-moen-m"
+        ],
+        "source_urls": []
+      },
+      "suggestions": []
+    }
+  ]
+}
