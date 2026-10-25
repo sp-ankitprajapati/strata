@@ -1,0 +1,322 @@
+{
+  "fingerprint": {
+    "manifest_sha256": "0d97568883caaf230b87fa731767247a3ae2cafe19248ce01f3236fb983e9b29",
+    "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+    "pipeline_snapshot_sha256": {
+      "validate_pipeline.py": "951a212892c97c6b222e1a5a99cc09eefc19dbb83786167b8a655f2568cdbb8a",
+      "ocr_worker.py": "a43d59360ad4f2469217e59737b3ccfb06f38a1856dbdc86b5f1d615cbf52e21",
+      "pdf_ocr.py": "a70ad5356e81109321e5173a7438e53aa5b411317988d22d18e91fa1dda64b05",
+      "pdf_candidates.py": "5d72e1d90262a920bb522683635673e30e8ffebee336c43eb7b02535b6d55ec7",
+      "extract_schedule.py": "c7f88cbbcd1d8be250df617a394e27ebe96a20c21527975d497d93dbf91570cb",
+      "material_matcher.py": "76adede4e827c6fe3aaa312441fcb0f819a6f80284f1ce2d1c16a3dfd1a3552b",
+      "material_review.py": "535683bdb47e7a6a05ee0225cb1da734c2c8a0cc51e390990dea08e03711ba19",
+      "evaluate_schedule_ocr.py": "4e1fd71aa8046790aa35762eefe9bc7b40aa5320e304f860a5c6b6bd8e738dbc",
+      "pdf_processing.py": "d63f43ea07634bde445ccbb483fbe94868fb7cc898c190880ace570658f754b0",
+      "evaluate_regions.py": "3225f56aa70901fbcc3825a347c74dab246a6dbb9fcc3a3258a5e4fee4ea3f54"
+    }
+  },
+  "evaluation": {
+    "case_id": "V-101_skew_1_5",
+    "condition": "skew_1_5",
+    "execution_ok": true,
+    "extracted_items": 1,
+    "expected_status": "asbestos_containing",
+    "predicted_status": "asbestos_containing",
+    "status_agreement": true,
+    "reason_agreement": true,
+    "incorrect_resolved_decision": false,
+    "field_agreement_ignoring_spacing": {
+      "product_name": true,
+      "manufacturer": true,
+      "manufacture_month": true
+    },
+    "item_id_agreement": true,
+    "cer_edits": 5,
+    "reference_characters": 106,
+    "cer": 0.04716981132075472,
+    "inference_seconds": 8.312,
+    "results": [
+      {
+        "query": {
+          "query_id": "pdf-p1-item1",
+          "product_name": "ゴールデン モエンサイディング",
+          "manufacturer": "Nichiha",
+          "manufacture_month": "1980-02"
+        },
+        "item_label": "V-101",
+        "source_lines": [
+          {
+            "line": 2,
+            "text": "Item:V-101"
+          },
+          {
+            "line": 3,
+            "text": "Product: ゴールデン モエンサイディング"
+          },
+          {
+            "line": 4,
+            "text": "Manufacturer: Nichiha"
+          },
+          {
+            "line": 5,
+            "text": "Manufacturemonth:1980-02"
+          }
+        ],
+        "field_evidence": {
+          "product_name": [
+            {
+              "line": 3,
+              "value": "ゴールデン モエンサイディング"
+            }
+          ],
+          "manufacturer": [
+            {
+              "line": 4,
+              "value": "Nichiha"
+            }
+          ],
+          "manufacture_month": [
+            {
+              "line": 5,
+              "value": "1980-02"
+            }
+          ]
+        },
+        "issues": [],
+        "source": {
+          "pdf_sha256": "eb27d4d0ad0c96eb5fe83bc1217b19a8035e10f97ba01a34af3205fdb95ab3ba",
+          "page_number": 1,
+          "coordinate_system": "PDF points; top-left origin",
+          "ocr_result_sha256": "3e31e139db3b6a6330c5a53a35838ae62b0dea08cddc505580b56304efab244c",
+          "ocr_image_sha256": "c13e1f9ae9fc465e1b3d749b3429c5a7bde32f0ed1ecee1e096b75a61d815036",
+          "extraction_method": "ocr_labelled_block_rules"
+        },
+        "ocr_evidence": {
+          "engine_info": {
+            "engine": "EasyOCR",
+            "easyocr_version": "1.7.2",
+            "torch_version": "2.14.1+cpu",
+            "python_version": "3.11.17",
+            "languages": [
+              "ja",
+              "en"
+            ],
+            "device": "cpu",
+            "quantize": false,
+            "cpu_threads": 1,
+            "execution": "isolated_process"
+          },
+          "lines": [
+            {
+              "text": "Item:V-101",
+              "detection_ids": [
+                2
+              ]
+            },
+            {
+              "text": "Product: ゴールデン モエンサイディング",
+              "detection_ids": [
+                3
+              ]
+            },
+            {
+              "text": "Manufacturer: Nichiha",
+              "detection_ids": [
+                4
+              ]
+            },
+            {
+              "text": "Manufacturemonth:1980-02",
+              "detection_ids": [
+                5
+              ]
+            }
+          ],
+          "detections": [
+            {
+              "id": 2,
+              "text": "Item:V-101",
+              "confidence": 0.9757150918703522,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  63.0,
+                  201.0
+                ],
+                [
+                  255.0,
+                  201.0
+                ],
+                [
+                  255.0,
+                  243.0
+                ],
+                [
+                  63.0,
+                  243.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  30.240000000000002,
+                  96.47999999999999
+                ],
+                [
+                  122.4,
+                  96.47999999999999
+                ],
+                [
+                  122.4,
+                  116.64
+                ],
+                [
+                  30.240000000000002,
+                  116.64
+                ]
+              ]
+            },
+            {
+              "id": 3,
+              "text": "Product: ゴールデン モエンサイディング",
+              "confidence": 0.7716824401052682,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  62.0,
+                  246.0
+                ],
+                [
+                  735.0,
+                  246.0
+                ],
+                [
+                  735.0,
+                  308.0
+                ],
+                [
+                  62.0,
+                  308.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  29.76,
+                  118.08
+                ],
+                [
+                  352.8,
+                  118.08
+                ],
+                [
+                  352.8,
+                  147.84
+                ],
+                [
+                  29.76,
+                  147.84
+                ]
+              ]
+            },
+            {
+              "id": 4,
+              "text": "Manufacturer: Nichiha",
+              "confidence": 0.9414169932155103,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  65.0,
+                  314.0
+                ],
+                [
+                  446.0,
+                  314.0
+                ],
+                [
+                  446.0,
+                  367.0
+                ],
+                [
+                  65.0,
+                  367.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  31.200000000000003,
+                  150.72
+                ],
+                [
+                  214.08,
+                  150.72
+                ],
+                [
+                  214.08,
+                  176.16
+                ],
+                [
+                  31.200000000000003,
+                  176.16
+                ]
+              ]
+            },
+            {
+              "id": 5,
+              "text": "Manufacturemonth:1980-02",
+              "confidence": 0.9918677632244535,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  67.0,
+                  371.0
+                ],
+                [
+                  558.0,
+                  371.0
+                ],
+                [
+                  558.0,
+                  428.0
+                ],
+                [
+                  67.0,
+                  428.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  32.160000000000004,
+                  178.07999999999998
+                ],
+                [
+                  267.84000000000003,
+                  178.07999999999998
+                ],
+                [
+                  267.84000000000003,
+                  205.44
+                ],
+                [
+                  32.160000000000004,
+                  205.44
+                ]
+              ]
+            }
+          ]
+        },
+        "decision": {
+          "status": "asbestos_containing",
+          "reason": "exact_product_manufacturer_and_month_match",
+          "matched_record_id": "nichiha-golden-moen",
+          "candidate_record_ids": [
+            "nichiha-golden-moen"
+          ],
+          "source_urls": [
+            "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+            "https://www.nichiha.co.jp/products/wall/yogyo/asbestos.pdf"
+          ]
+        },
+        "suggestions": []
+      }
+    ]
+  }
+}

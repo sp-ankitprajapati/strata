@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "b69d5e65489f13bdd502b96f4044781bf5228c42eb660b57ee996e2e7e592e5f",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    582.72,
+    245.76
+  ],
+  "text": "Datatype:synthetic\nItem:V-104\nProduct: モエンサイディング-川\nManufacturer:Examplesupplier\nManufacturemonth:2001-09",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "3aa6e734fd72353c69929496d7b581383c3837c30337addc137f52e678b46ed3",
+      "image_size_pixels": [
+        1214,
+        512
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        582.72,
+        245.76
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.9960126780319276,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            68.0
+          ],
+          [
+            405.0,
+            68.0
+          ],
+          [
+            405.0,
+            133.0
+          ],
+          [
+            57.0,
+            133.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.360000000000003,
+            32.64
+          ],
+          [
+            194.4,
+            32.64
+          ],
+          [
+            194.4,
+            63.839999999999996
+          ],
+          [
+            27.360000000000003,
+            63.839999999999996
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-104",
+        "confidence": 0.9802477285222402,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            63.0,
+            201.0
+          ],
+          [
+            257.0,
+            201.0
+          ],
+          [
+            257.0,
+            243.0
+          ],
+          [
+            63.0,
+            243.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            30.240000000000002,
+            96.47999999999999
+          ],
+          [
+            123.36,
+            96.47999999999999
+          ],
+          [
+            123.36,
+            116.64
+          ],
+          [
+            30.240000000000002,
+            116.64
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-川",
+        "confidence": 0.7401027076170711,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            63.0,
+            250.0
+          ],
+          [
+            588.0,
+            250.0
+          ],
+          [
+            588.0,
+            307.0
+          ],
+          [
+            63.0,
+            307.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            30.240000000000002,
+            120.0
+          ],
+          [
+            282.24,
+            120.0
+          ],
+          [
+            282.24,
+            147.35999999999999
+          ],
+          [
+            30.240000000000002,
+            147.35999999999999
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer:Examplesupplier",
+        "confidence": 0.9801599207580892,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            64.0,
+            308.0
+          ],
+          [
+            616.0,
+            308.0
+          ],
+          [
+            616.0,
+            370.0
+          ],
+          [
+            64.0,
+            370.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            30.720000000000002,
+            147.84
+          ],
+          [
+            295.68,
+            147.84
+          ],
+          [
+            295.68,
+            177.6
+          ],
+          [
+            30.720000000000002,
+            177.6
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Manufacturemonth:2001-09",
+        "confidence": 0.9260119475158454,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            67.0,
+            371.0
+          ],
+          [
+            558.0,
+            371.0
+          ],
+          [
+            558.0,
+            428.0
+          ],
+          [
+            67.0,
+            428.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            32.160000000000004,
+            178.07999999999998
+          ],
+          [
+            267.84000000000003,
+            178.07999999999998
+          ],
+          [
+            267.84000000000003,
+            205.44
+          ],
+          [
+            32.160000000000004,
+            205.44
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-104",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-川",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer:Examplesupplier",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Manufacturemonth:2001-09",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "c7c2ad8e721f3e57ff1f87ad7a3b05ccfa350fb7c41cad61855e15094fde75c2",
+    "inference_seconds": 8.102,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}

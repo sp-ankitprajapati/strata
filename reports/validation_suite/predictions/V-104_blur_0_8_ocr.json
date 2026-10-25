@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "49ae24a5992f16e8ca438d1965350eb97d22b1c8c51f0a6598705dae8826b4aa",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    576.0,
+    230.4
+  ],
+  "text": "Datatype:synthetic\nItem:V-104\nProduct: モエンサイディング-M\nManufacturer: Examplesupplier\nManufacturemonth:2001-09",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "e8b16c8570aa7cbd407f610789b4efce70d318c09b5b45f68a00b86ff4210285",
+      "image_size_pixels": [
+        1200,
+        480
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        576.0,
+        230.4
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.7647296254247524,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            49.0
+          ],
+          [
+            401.0,
+            49.0
+          ],
+          [
+            401.0,
+            103.0
+          ],
+          [
+            58.0,
+            103.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            23.52
+          ],
+          [
+            192.48,
+            23.52
+          ],
+          [
+            192.48,
+            49.44
+          ],
+          [
+            27.84,
+            49.44
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-104",
+        "confidence": 0.9750915536292065,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            175.0
+          ],
+          [
+            251.0,
+            175.0
+          ],
+          [
+            251.0,
+            213.0
+          ],
+          [
+            57.0,
+            213.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            84.0
+          ],
+          [
+            120.48,
+            84.0
+          ],
+          [
+            120.48,
+            102.24
+          ],
+          [
+            27.36,
+            102.24
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-M",
+        "confidence": 0.9436311139434267,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            234.0
+          ],
+          [
+            580.0,
+            234.0
+          ],
+          [
+            580.0,
+            282.0
+          ],
+          [
+            58.0,
+            282.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            112.32
+          ],
+          [
+            278.4,
+            112.32
+          ],
+          [
+            278.4,
+            135.36
+          ],
+          [
+            27.84,
+            135.36
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer: Examplesupplier",
+        "confidence": 0.5461296306150631,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            292.0
+          ],
+          [
+            604.0,
+            292.0
+          ],
+          [
+            604.0,
+            344.0
+          ],
+          [
+            57.0,
+            344.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            140.16
+          ],
+          [
+            289.91999999999996,
+            140.16
+          ],
+          [
+            289.91999999999996,
+            165.12
+          ],
+          [
+            27.36,
+            165.12
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Manufacturemonth:2001-09",
+        "confidence": 0.8556208454154222,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            353.0
+          ],
+          [
+            547.0,
+            353.0
+          ],
+          [
+            547.0,
+            397.0
+          ],
+          [
+            57.0,
+            397.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            169.44000000000003
+          ],
+          [
+            262.56,
+            169.44000000000003
+          ],
+          [
+            262.56,
+            190.56
+          ],
+          [
+            27.36,
+            190.56
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-104",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-M",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer: Examplesupplier",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Manufacturemonth:2001-09",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "e6484093ca2c95174ae3355714724784c99eebaa3d74d1d6eb276de58c411dda",
+    "inference_seconds": 7.838,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}

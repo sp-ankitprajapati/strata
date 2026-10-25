@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "e4141bbf8c92db51fc51b2cfa421def51570e4c2387a3a6d3ca4a0b7a841eeff",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    576.0,
+    230.4
+  ],
+  "text": "Datatype:synthetic\nItem:V-103\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nInstallationyear:2001",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "84e77933bbaf1e550c4a4ccdb9845d7d853fa21f3f9b1cbf3b082aacb57d4eb2",
+      "image_size_pixels": [
+        1200,
+        480
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        576.0,
+        230.4
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.7940198255021558,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            56.0,
+            47.0
+          ],
+          [
+            401.0,
+            47.0
+          ],
+          [
+            401.0,
+            104.0
+          ],
+          [
+            56.0,
+            104.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            26.880000000000003,
+            22.56
+          ],
+          [
+            192.48,
+            22.56
+          ],
+          [
+            192.48,
+            49.92
+          ],
+          [
+            26.880000000000003,
+            49.92
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-103",
+        "confidence": 0.9783648128899651,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            171.0
+          ],
+          [
+            251.0,
+            171.0
+          ],
+          [
+            251.0,
+            213.0
+          ],
+          [
+            57.0,
+            213.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            82.08
+          ],
+          [
+            120.48,
+            82.08
+          ],
+          [
+            120.48,
+            102.24
+          ],
+          [
+            27.36,
+            102.24
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-M",
+        "confidence": 0.6911666118775966,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            56.0,
+            234.0
+          ],
+          [
+            580.0,
+            234.0
+          ],
+          [
+            580.0,
+            282.0
+          ],
+          [
+            56.0,
+            282.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            26.880000000000003,
+            112.32
+          ],
+          [
+            278.4,
+            112.32
+          ],
+          [
+            278.4,
+            135.36
+          ],
+          [
+            26.880000000000003,
+            135.36
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer: Nichiha",
+        "confidence": 0.8835168179883865,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            59.0,
+            293.0
+          ],
+          [
+            435.0,
+            293.0
+          ],
+          [
+            435.0,
+            337.0
+          ],
+          [
+            59.0,
+            337.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            28.32,
+            140.64000000000001
+          ],
+          [
+            208.79999999999998,
+            140.64000000000001
+          ],
+          [
+            208.79999999999998,
+            161.76
+          ],
+          [
+            28.32,
+            161.76
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Installationyear:2001",
+        "confidence": 0.9492349090027015,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            53.0,
+            349.0
+          ],
+          [
+            432.0,
+            349.0
+          ],
+          [
+            432.0,
+            402.0
+          ],
+          [
+            53.0,
+            402.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            25.44,
+            167.52
+          ],
+          [
+            207.35999999999999,
+            167.52
+          ],
+          [
+            207.35999999999999,
+            192.96
+          ],
+          [
+            25.44,
+            192.96
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-103",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-M",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer: Nichiha",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Installationyear:2001",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "0ce6bd4ccb3cf1d42ae45a73869b0ac35787a53d75f093ebdff1cddba7eff40d",
+    "inference_seconds": 8.001,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}

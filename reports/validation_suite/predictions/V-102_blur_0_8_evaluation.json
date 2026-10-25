@@ -1,0 +1,323 @@
+{
+  "fingerprint": {
+    "manifest_sha256": "0d97568883caaf230b87fa731767247a3ae2cafe19248ce01f3236fb983e9b29",
+    "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+    "pipeline_snapshot_sha256": {
+      "validate_pipeline.py": "951a212892c97c6b222e1a5a99cc09eefc19dbb83786167b8a655f2568cdbb8a",
+      "ocr_worker.py": "a43d59360ad4f2469217e59737b3ccfb06f38a1856dbdc86b5f1d615cbf52e21",
+      "pdf_ocr.py": "a70ad5356e81109321e5173a7438e53aa5b411317988d22d18e91fa1dda64b05",
+      "pdf_candidates.py": "5d72e1d90262a920bb522683635673e30e8ffebee336c43eb7b02535b6d55ec7",
+      "extract_schedule.py": "c7f88cbbcd1d8be250df617a394e27ebe96a20c21527975d497d93dbf91570cb",
+      "material_matcher.py": "76adede4e827c6fe3aaa312441fcb0f819a6f80284f1ce2d1c16a3dfd1a3552b",
+      "material_review.py": "535683bdb47e7a6a05ee0225cb1da734c2c8a0cc51e390990dea08e03711ba19",
+      "evaluate_schedule_ocr.py": "4e1fd71aa8046790aa35762eefe9bc7b40aa5320e304f860a5c6b6bd8e738dbc",
+      "pdf_processing.py": "d63f43ea07634bde445ccbb483fbe94868fb7cc898c190880ace570658f754b0",
+      "evaluate_regions.py": "3225f56aa70901fbcc3825a347c74dab246a6dbb9fcc3a3258a5e4fee4ea3f54"
+    }
+  },
+  "evaluation": {
+    "case_id": "V-102_blur_0_8",
+    "condition": "blur_0_8",
+    "execution_ok": true,
+    "extracted_items": 1,
+    "expected_status": "non_asbestos_containing",
+    "predicted_status": "non_asbestos_containing",
+    "status_agreement": true,
+    "reason_agreement": true,
+    "incorrect_resolved_decision": false,
+    "field_agreement_ignoring_spacing": {
+      "product_name": true,
+      "manufacturer": true,
+      "manufacture_month": true
+    },
+    "item_id_agreement": true,
+    "cer_edits": 5,
+    "reference_characters": 102,
+    "cer": 0.049019607843137254,
+    "inference_seconds": 7.778,
+    "results": [
+      {
+        "query": {
+          "query_id": "pdf-p1-item1",
+          "product_name": "モエンサイディング-M",
+          "manufacturer": "Nichiha",
+          "manufacture_month": "2001-09"
+        },
+        "item_label": "V-102",
+        "source_lines": [
+          {
+            "line": 2,
+            "text": "Item:V-102"
+          },
+          {
+            "line": 3,
+            "text": "Product: モエンサイディング-M"
+          },
+          {
+            "line": 4,
+            "text": "Manufacturer: Nichiha"
+          },
+          {
+            "line": 5,
+            "text": "Manufacturemonth:2001-09"
+          }
+        ],
+        "field_evidence": {
+          "product_name": [
+            {
+              "line": 3,
+              "value": "モエンサイディング-M"
+            }
+          ],
+          "manufacturer": [
+            {
+              "line": 4,
+              "value": "Nichiha"
+            }
+          ],
+          "manufacture_month": [
+            {
+              "line": 5,
+              "value": "2001-09"
+            }
+          ]
+        },
+        "issues": [],
+        "source": {
+          "pdf_sha256": "f4907a021168927a1019558b468909d8c2a10df4da7bc554fcfa2319e1bcf0d7",
+          "page_number": 1,
+          "coordinate_system": "PDF points; top-left origin",
+          "ocr_result_sha256": "35be0bfee63a4631f3cedea83e177f650224188b603844a528c46f79f7e7596c",
+          "ocr_image_sha256": "26c229754ccde15c453afe46422f923565e07d493520e0a34d282a8cdde34765",
+          "extraction_method": "ocr_labelled_block_rules"
+        },
+        "ocr_evidence": {
+          "engine_info": {
+            "engine": "EasyOCR",
+            "easyocr_version": "1.7.2",
+            "torch_version": "2.14.1+cpu",
+            "python_version": "3.11.17",
+            "languages": [
+              "ja",
+              "en"
+            ],
+            "device": "cpu",
+            "quantize": false,
+            "cpu_threads": 1,
+            "execution": "isolated_process"
+          },
+          "lines": [
+            {
+              "text": "Item:V-102",
+              "detection_ids": [
+                2
+              ]
+            },
+            {
+              "text": "Product: モエンサイディング-M",
+              "detection_ids": [
+                3
+              ]
+            },
+            {
+              "text": "Manufacturer: Nichiha",
+              "detection_ids": [
+                4
+              ]
+            },
+            {
+              "text": "Manufacturemonth:2001-09",
+              "detection_ids": [
+                5
+              ]
+            }
+          ],
+          "detections": [
+            {
+              "id": 2,
+              "text": "Item:V-102",
+              "confidence": 0.9698386706860733,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  57.0,
+                  175.0
+                ],
+                [
+                  253.0,
+                  175.0
+                ],
+                [
+                  253.0,
+                  213.0
+                ],
+                [
+                  57.0,
+                  213.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  27.36,
+                  84.0
+                ],
+                [
+                  121.44000000000001,
+                  84.0
+                ],
+                [
+                  121.44000000000001,
+                  102.24
+                ],
+                [
+                  27.36,
+                  102.24
+                ]
+              ]
+            },
+            {
+              "id": 3,
+              "text": "Product: モエンサイディング-M",
+              "confidence": 0.9436311139434267,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  58.0,
+                  234.0
+                ],
+                [
+                  580.0,
+                  234.0
+                ],
+                [
+                  580.0,
+                  282.0
+                ],
+                [
+                  58.0,
+                  282.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  27.84,
+                  112.32
+                ],
+                [
+                  278.4,
+                  112.32
+                ],
+                [
+                  278.4,
+                  135.36
+                ],
+                [
+                  27.84,
+                  135.36
+                ]
+              ]
+            },
+            {
+              "id": 4,
+              "text": "Manufacturer: Nichiha",
+              "confidence": 0.6568614705691587,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  58.0,
+                  292.0
+                ],
+                [
+                  436.0,
+                  292.0
+                ],
+                [
+                  436.0,
+                  337.0
+                ],
+                [
+                  58.0,
+                  337.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  27.84,
+                  140.16
+                ],
+                [
+                  209.28,
+                  140.16
+                ],
+                [
+                  209.28,
+                  161.76
+                ],
+                [
+                  27.84,
+                  161.76
+                ]
+              ]
+            },
+            {
+              "id": 5,
+              "text": "Manufacturemonth:2001-09",
+              "confidence": 0.8844581163157559,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  56.0,
+                  352.0
+                ],
+                [
+                  548.0,
+                  352.0
+                ],
+                [
+                  548.0,
+                  400.0
+                ],
+                [
+                  56.0,
+                  400.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  26.880000000000003,
+                  168.95999999999998
+                ],
+                [
+                  263.04,
+                  168.95999999999998
+                ],
+                [
+                  263.04,
+                  192.0
+                ],
+                [
+                  26.880000000000003,
+                  192.0
+                ]
+              ]
+            }
+          ]
+        },
+        "decision": {
+          "status": "non_asbestos_containing",
+          "reason": "exact_product_manufacturer_and_month_match",
+          "matched_record_id": "nichiha-moen-m",
+          "candidate_record_ids": [
+            "nichiha-moen-m"
+          ],
+          "source_urls": [
+            "https://www.nichiha.co.jp/products/wall/yogyo/offsetsiding_m/",
+            "https://www.nichiha.co.jp/products/wall/yogyo/asbestos/",
+            "https://www.nichiha.co.jp/products/wall/yogyo/products.pdf"
+          ]
+        },
+        "suggestions": []
+      }
+    ]
+  }
+}

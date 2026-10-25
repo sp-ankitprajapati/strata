@@ -1,0 +1,189 @@
+{
+  "data_kind": "synthetic_development_stress_suite",
+  "scope": "Four scenarios with three correlated scan variants each.",
+  "alignment": "One expected item per page; OCR item IDs are scored separately.",
+  "font_sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+  "font_size": 36,
+  "cases": [
+    {
+      "case_id": "V-101_clean",
+      "condition": "clean",
+      "pdf_file": "fixtures/V-101_clean.pdf",
+      "pdf_sha256": "71a36878fdba76313e1da18dd3ccd821e6d628fbd56c1a04b4682a13d3917456",
+      "expected_text": "Data type: synthetic\nItem: V-101\nProduct: ゴールデン モエンサイディング\nManufacturer: Nichiha\nManufacture month: 1980-02",
+      "expected": {
+        "id": "V-101",
+        "product_name": "ゴールデン モエンサイディング",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1980-02",
+        "status": "asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-101_skew_1_5",
+      "condition": "skew_1_5",
+      "pdf_file": "fixtures/V-101_skew_1_5.pdf",
+      "pdf_sha256": "eb27d4d0ad0c96eb5fe83bc1217b19a8035e10f97ba01a34af3205fdb95ab3ba",
+      "expected_text": "Data type: synthetic\nItem: V-101\nProduct: ゴールデン モエンサイディング\nManufacturer: Nichiha\nManufacture month: 1980-02",
+      "expected": {
+        "id": "V-101",
+        "product_name": "ゴールデン モエンサイディング",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1980-02",
+        "status": "asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-101_blur_0_8",
+      "condition": "blur_0_8",
+      "pdf_file": "fixtures/V-101_blur_0_8.pdf",
+      "pdf_sha256": "1d076b1fd3c75197fc1446859b135319d03ed678c997b2449451b7c1ce7cec72",
+      "expected_text": "Data type: synthetic\nItem: V-101\nProduct: ゴールデン モエンサイディング\nManufacturer: Nichiha\nManufacture month: 1980-02",
+      "expected": {
+        "id": "V-101",
+        "product_name": "ゴールデン モエンサイディング",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "1980-02",
+        "status": "asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-102_clean",
+      "condition": "clean",
+      "pdf_file": "fixtures/V-102_clean.pdf",
+      "pdf_sha256": "5b12dad2ba65d1cd729cd5aa9f721634608f6c3cb4a385019ec9aaac59a337c1",
+      "expected_text": "Data type: synthetic\nItem: V-102\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-102",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "2001-09",
+        "status": "non_asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-102_skew_1_5",
+      "condition": "skew_1_5",
+      "pdf_file": "fixtures/V-102_skew_1_5.pdf",
+      "pdf_sha256": "379673248e2363ff080691999164abe81fb79e9ac52aa35406ddb92b8535e9fc",
+      "expected_text": "Data type: synthetic\nItem: V-102\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-102",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "2001-09",
+        "status": "non_asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-102_blur_0_8",
+      "condition": "blur_0_8",
+      "pdf_file": "fixtures/V-102_blur_0_8.pdf",
+      "pdf_sha256": "f4907a021168927a1019558b468909d8c2a10df4da7bc554fcfa2319e1bcf0d7",
+      "expected_text": "Data type: synthetic\nItem: V-102\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-102",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": "2001-09",
+        "status": "non_asbestos_containing",
+        "reason": "exact_product_manufacturer_and_month_match"
+      }
+    },
+    {
+      "case_id": "V-103_clean",
+      "condition": "clean",
+      "pdf_file": "fixtures/V-103_clean.pdf",
+      "pdf_sha256": "e4141bbf8c92db51fc51b2cfa421def51570e4c2387a3a6d3ca4a0b7a841eeff",
+      "expected_text": "Data type: synthetic\nItem: V-103\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nInstallation year: 2001",
+      "expected": {
+        "id": "V-103",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null,
+        "status": "unresolved",
+        "reason": "manufacture_month_missing"
+      }
+    },
+    {
+      "case_id": "V-103_skew_1_5",
+      "condition": "skew_1_5",
+      "pdf_file": "fixtures/V-103_skew_1_5.pdf",
+      "pdf_sha256": "8b17690c895875f2380296662e03f0486769c836eb1d89f94d050228ca9f4a1c",
+      "expected_text": "Data type: synthetic\nItem: V-103\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nInstallation year: 2001",
+      "expected": {
+        "id": "V-103",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null,
+        "status": "unresolved",
+        "reason": "manufacture_month_missing"
+      }
+    },
+    {
+      "case_id": "V-103_blur_0_8",
+      "condition": "blur_0_8",
+      "pdf_file": "fixtures/V-103_blur_0_8.pdf",
+      "pdf_sha256": "e1bac884cd76e098228a34e1ae6374eddc3bd8d1883b5ff8776bdd04cac591e0",
+      "expected_text": "Data type: synthetic\nItem: V-103\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nInstallation year: 2001",
+      "expected": {
+        "id": "V-103",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Nichiha",
+        "manufacture_month": null,
+        "status": "unresolved",
+        "reason": "manufacture_month_missing"
+      }
+    },
+    {
+      "case_id": "V-104_clean",
+      "condition": "clean",
+      "pdf_file": "fixtures/V-104_clean.pdf",
+      "pdf_sha256": "8080272fc60a91d088b0aab67210d976fd7c1d422fa63af282a92e7d68139710",
+      "expected_text": "Data type: synthetic\nItem: V-104\nProduct: モエンサイディング-M\nManufacturer: Example Supplier\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-104",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Example Supplier",
+        "manufacture_month": "2001-09",
+        "status": "unresolved",
+        "reason": "manufacturer_mismatch"
+      }
+    },
+    {
+      "case_id": "V-104_skew_1_5",
+      "condition": "skew_1_5",
+      "pdf_file": "fixtures/V-104_skew_1_5.pdf",
+      "pdf_sha256": "b69d5e65489f13bdd502b96f4044781bf5228c42eb660b57ee996e2e7e592e5f",
+      "expected_text": "Data type: synthetic\nItem: V-104\nProduct: モエンサイディング-M\nManufacturer: Example Supplier\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-104",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Example Supplier",
+        "manufacture_month": "2001-09",
+        "status": "unresolved",
+        "reason": "manufacturer_mismatch"
+      }
+    },
+    {
+      "case_id": "V-104_blur_0_8",
+      "condition": "blur_0_8",
+      "pdf_file": "fixtures/V-104_blur_0_8.pdf",
+      "pdf_sha256": "49ae24a5992f16e8ca438d1965350eb97d22b1c8c51f0a6598705dae8826b4aa",
+      "expected_text": "Data type: synthetic\nItem: V-104\nProduct: モエンサイディング-M\nManufacturer: Example Supplier\nManufacture month: 2001-09",
+      "expected": {
+        "id": "V-104",
+        "product_name": "モエンサイディング-M",
+        "manufacturer": "Example Supplier",
+        "manufacture_month": "2001-09",
+        "status": "unresolved",
+        "reason": "manufacturer_mismatch"
+      }
+    }
+  ]
+}

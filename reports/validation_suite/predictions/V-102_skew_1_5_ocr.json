@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "379673248e2363ff080691999164abe81fb79e9ac52aa35406ddb92b8535e9fc",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    582.72,
+    245.76
+  ],
+  "text": "Datatype:synthetic\nItem:V-102\nProduct: モエンサイディング-川\nManufacturer: Nichiha\nManufacturemonth:2001-09",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "14ca06dfae4f5b32e058aec9d786c926b89594b84a59e237ca6f556b80e26c6c",
+      "image_size_pixels": [
+        1214,
+        512
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        582.72,
+        245.76
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.9960126780319276,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            68.0
+          ],
+          [
+            405.0,
+            68.0
+          ],
+          [
+            405.0,
+            133.0
+          ],
+          [
+            57.0,
+            133.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.360000000000003,
+            32.64
+          ],
+          [
+            194.4,
+            32.64
+          ],
+          [
+            194.4,
+            63.839999999999996
+          ],
+          [
+            27.360000000000003,
+            63.839999999999996
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-102",
+        "confidence": 0.9819949422079706,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            63.0,
+            201.0
+          ],
+          [
+            257.0,
+            201.0
+          ],
+          [
+            257.0,
+            243.0
+          ],
+          [
+            63.0,
+            243.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            30.240000000000002,
+            96.47999999999999
+          ],
+          [
+            123.36,
+            96.47999999999999
+          ],
+          [
+            123.36,
+            116.64
+          ],
+          [
+            30.240000000000002,
+            116.64
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-川",
+        "confidence": 0.7401027076170711,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            63.0,
+            250.0
+          ],
+          [
+            588.0,
+            250.0
+          ],
+          [
+            588.0,
+            307.0
+          ],
+          [
+            63.0,
+            307.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            30.240000000000002,
+            120.0
+          ],
+          [
+            282.24,
+            120.0
+          ],
+          [
+            282.24,
+            147.35999999999999
+          ],
+          [
+            30.240000000000002,
+            147.35999999999999
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer: Nichiha",
+        "confidence": 0.9414169932155103,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            65.0,
+            314.0
+          ],
+          [
+            446.0,
+            314.0
+          ],
+          [
+            446.0,
+            367.0
+          ],
+          [
+            65.0,
+            367.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            31.200000000000003,
+            150.72
+          ],
+          [
+            214.08,
+            150.72
+          ],
+          [
+            214.08,
+            176.16
+          ],
+          [
+            31.200000000000003,
+            176.16
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Manufacturemonth:2001-09",
+        "confidence": 0.9260119475158454,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            67.0,
+            371.0
+          ],
+          [
+            558.0,
+            371.0
+          ],
+          [
+            558.0,
+            428.0
+          ],
+          [
+            67.0,
+            428.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            32.160000000000004,
+            178.07999999999998
+          ],
+          [
+            267.84000000000003,
+            178.07999999999998
+          ],
+          [
+            267.84000000000003,
+            205.44
+          ],
+          [
+            32.160000000000004,
+            205.44
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-102",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-川",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer: Nichiha",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Manufacturemonth:2001-09",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "f95e46509acda5a5092f8c517f68ffcedc681b9e5dd2a6ae5de7a9c8600f6270",
+    "inference_seconds": 8.494,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "data_kind": "synthetic_development_stress_suite",
+  "fingerprint": {
+    "manifest_sha256": "0d97568883caaf230b87fa731767247a3ae2cafe19248ce01f3236fb983e9b29",
+    "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+    "pipeline_snapshot_sha256": {
+      "validate_pipeline.py": "951a212892c97c6b222e1a5a99cc09eefc19dbb83786167b8a655f2568cdbb8a",
+      "ocr_worker.py": "a43d59360ad4f2469217e59737b3ccfb06f38a1856dbdc86b5f1d615cbf52e21",
+      "pdf_ocr.py": "a70ad5356e81109321e5173a7438e53aa5b411317988d22d18e91fa1dda64b05",
+      "pdf_candidates.py": "5d72e1d90262a920bb522683635673e30e8ffebee336c43eb7b02535b6d55ec7",
+      "extract_schedule.py": "c7f88cbbcd1d8be250df617a394e27ebe96a20c21527975d497d93dbf91570cb",
+      "material_matcher.py": "76adede4e827c6fe3aaa312441fcb0f819a6f80284f1ce2d1c16a3dfd1a3552b",
+      "material_review.py": "535683bdb47e7a6a05ee0225cb1da734c2c8a0cc51e390990dea08e03711ba19",
+      "evaluate_schedule_ocr.py": "4e1fd71aa8046790aa35762eefe9bc7b40aa5320e304f860a5c6b6bd8e738dbc",
+      "pdf_processing.py": "d63f43ea07634bde445ccbb483fbe94868fb7cc898c190880ace570658f754b0",
+      "evaluate_regions.py": "3225f56aa70901fbcc3825a347c74dab246a6dbb9fcc3a3258a5e4fee4ea3f54"
+    }
+  },
+  "overall": {
+    "cases": 12,
+    "completed": 12,
+    "status_agreement_count": 10,
+    "reason_agreement_count": 8,
+    "single_item_count": 12,
+    "item_id_agreement_count": 12,
+    "incorrect_resolved_decisions": 0,
+    "field_agreement_counts": {
+      "product_name": 9,
+      "manufacturer": 12,
+      "manufacture_month": 10
+    },
+    "cer_over_completed_runs": 0.05422647527910686,
+    "cer_edits": 68,
+    "reference_characters": 1254,
+    "resolved_class_metrics": {
+      "asbestos_containing": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      "non_asbestos_containing": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.3333333333333333
+      }
+    }
+  },
+  "by_condition": {
+    "clean": {
+      "cases": 4,
+      "completed": 4,
+      "status_agreement_count": 3,
+      "reason_agreement_count": 3,
+      "single_item_count": 4,
+      "item_id_agreement_count": 4,
+      "incorrect_resolved_decisions": 0,
+      "field_agreement_counts": {
+        "product_name": 4,
+        "manufacturer": 4,
+        "manufacture_month": 2
+      },
+      "cer_over_completed_runs": 0.05741626794258373,
+      "cer_edits": 24,
+      "reference_characters": 418,
+      "resolved_class_metrics": {
+        "asbestos_containing": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "non_asbestos_containing": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0
+        }
+      }
+    },
+    "skew_1_5": {
+      "cases": 4,
+      "completed": 4,
+      "status_agreement_count": 3,
+      "reason_agreement_count": 1,
+      "single_item_count": 4,
+      "item_id_agreement_count": 4,
+      "incorrect_resolved_decisions": 0,
+      "field_agreement_counts": {
+        "product_name": 1,
+        "manufacturer": 4,
+        "manufacture_month": 4
+      },
+      "cer_over_completed_runs": 0.05502392344497608,
+      "cer_edits": 23,
+      "reference_characters": 418,
+      "resolved_class_metrics": {
+        "asbestos_containing": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "non_asbestos_containing": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 1,
+          "precision": null,
+          "recall": 0.0
+        }
+      }
+    },
+    "blur_0_8": {
+      "cases": 4,
+      "completed": 4,
+      "status_agreement_count": 4,
+      "reason_agreement_count": 4,
+      "single_item_count": 4,
+      "item_id_agreement_count": 4,
+      "incorrect_resolved_decisions": 0,
+      "field_agreement_counts": {
+        "product_name": 4,
+        "manufacturer": 4,
+        "manufacture_month": 4
+      },
+      "cer_over_completed_runs": 0.050239234449760764,
+      "cer_edits": 21,
+      "reference_characters": 418,
+      "resolved_class_metrics": {
+        "asbestos_containing": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        },
+        "non_asbestos_containing": {
+          "tp": 1,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0
+        }
+      }
+    }
+  }
+}

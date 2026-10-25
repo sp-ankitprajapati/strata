@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "e1bac884cd76e098228a34e1ae6374eddc3bd8d1883b5ff8776bdd04cac591e0",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    576.0,
+    230.4
+  ],
+  "text": "Datatype:synthetic\nItem:V-103\nProduct: モエンサイディング-M\nManufacturer: Nichiha\nInstallation year:2001",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "a74aa7bbfe1b7f864edc35cae6320dfc03ae5f6083d7966d151096a9384219fb",
+      "image_size_pixels": [
+        1200,
+        480
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        576.0,
+        230.4
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.7647296254247524,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            49.0
+          ],
+          [
+            401.0,
+            49.0
+          ],
+          [
+            401.0,
+            103.0
+          ],
+          [
+            58.0,
+            103.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            23.52
+          ],
+          [
+            192.48,
+            23.52
+          ],
+          [
+            192.48,
+            49.44
+          ],
+          [
+            27.84,
+            49.44
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-103",
+        "confidence": 0.9761068122907175,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            175.0
+          ],
+          [
+            251.0,
+            175.0
+          ],
+          [
+            251.0,
+            213.0
+          ],
+          [
+            57.0,
+            213.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            84.0
+          ],
+          [
+            120.48,
+            84.0
+          ],
+          [
+            120.48,
+            102.24
+          ],
+          [
+            27.36,
+            102.24
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-M",
+        "confidence": 0.9436311139434267,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            234.0
+          ],
+          [
+            580.0,
+            234.0
+          ],
+          [
+            580.0,
+            282.0
+          ],
+          [
+            58.0,
+            282.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            112.32
+          ],
+          [
+            278.4,
+            112.32
+          ],
+          [
+            278.4,
+            135.36
+          ],
+          [
+            27.84,
+            135.36
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer: Nichiha",
+        "confidence": 0.6568614705691587,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            292.0
+          ],
+          [
+            436.0,
+            292.0
+          ],
+          [
+            436.0,
+            337.0
+          ],
+          [
+            58.0,
+            337.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            140.16
+          ],
+          [
+            209.28,
+            140.16
+          ],
+          [
+            209.28,
+            161.76
+          ],
+          [
+            27.84,
+            161.76
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Installation year:2001",
+        "confidence": 0.8279104757164656,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            54.0,
+            352.0
+          ],
+          [
+            432.0,
+            352.0
+          ],
+          [
+            432.0,
+            402.0
+          ],
+          [
+            54.0,
+            402.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            25.919999999999998,
+            168.95999999999998
+          ],
+          [
+            207.35999999999999,
+            168.95999999999998
+          ],
+          [
+            207.35999999999999,
+            192.96
+          ],
+          [
+            25.919999999999998,
+            192.96
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-103",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-M",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer: Nichiha",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Installation year:2001",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "796369f8961856e9844c64a20f9517394fe49ec9113c3d5a030bb2add177ac0a",
+    "inference_seconds": 7.553,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}

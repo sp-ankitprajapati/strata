@@ -1,0 +1,317 @@
+{
+  "fingerprint": {
+    "manifest_sha256": "0d97568883caaf230b87fa731767247a3ae2cafe19248ce01f3236fb983e9b29",
+    "catalogue_sha256": "809a482088285d75fc2b04d9941b5960f8147b278fb15040476061d6bafda9ff",
+    "pipeline_snapshot_sha256": {
+      "validate_pipeline.py": "951a212892c97c6b222e1a5a99cc09eefc19dbb83786167b8a655f2568cdbb8a",
+      "ocr_worker.py": "a43d59360ad4f2469217e59737b3ccfb06f38a1856dbdc86b5f1d615cbf52e21",
+      "pdf_ocr.py": "a70ad5356e81109321e5173a7438e53aa5b411317988d22d18e91fa1dda64b05",
+      "pdf_candidates.py": "5d72e1d90262a920bb522683635673e30e8ffebee336c43eb7b02535b6d55ec7",
+      "extract_schedule.py": "c7f88cbbcd1d8be250df617a394e27ebe96a20c21527975d497d93dbf91570cb",
+      "material_matcher.py": "76adede4e827c6fe3aaa312441fcb0f819a6f80284f1ce2d1c16a3dfd1a3552b",
+      "material_review.py": "535683bdb47e7a6a05ee0225cb1da734c2c8a0cc51e390990dea08e03711ba19",
+      "evaluate_schedule_ocr.py": "4e1fd71aa8046790aa35762eefe9bc7b40aa5320e304f860a5c6b6bd8e738dbc",
+      "pdf_processing.py": "d63f43ea07634bde445ccbb483fbe94868fb7cc898c190880ace570658f754b0",
+      "evaluate_regions.py": "3225f56aa70901fbcc3825a347c74dab246a6dbb9fcc3a3258a5e4fee4ea3f54"
+    }
+  },
+  "evaluation": {
+    "case_id": "V-104_skew_1_5",
+    "condition": "skew_1_5",
+    "execution_ok": true,
+    "extracted_items": 1,
+    "expected_status": "unresolved",
+    "predicted_status": "unresolved",
+    "status_agreement": true,
+    "reason_agreement": false,
+    "incorrect_resolved_decision": false,
+    "field_agreement_ignoring_spacing": {
+      "product_name": false,
+      "manufacturer": true,
+      "manufacture_month": true
+    },
+    "item_id_agreement": true,
+    "cer_edits": 8,
+    "reference_characters": 111,
+    "cer": 0.07207207207207207,
+    "inference_seconds": 8.102,
+    "results": [
+      {
+        "query": {
+          "query_id": "pdf-p1-item1",
+          "product_name": "モエンサイディング-川",
+          "manufacturer": "Examplesupplier",
+          "manufacture_month": "2001-09"
+        },
+        "item_label": "V-104",
+        "source_lines": [
+          {
+            "line": 2,
+            "text": "Item:V-104"
+          },
+          {
+            "line": 3,
+            "text": "Product: モエンサイディング-川"
+          },
+          {
+            "line": 4,
+            "text": "Manufacturer:Examplesupplier"
+          },
+          {
+            "line": 5,
+            "text": "Manufacturemonth:2001-09"
+          }
+        ],
+        "field_evidence": {
+          "product_name": [
+            {
+              "line": 3,
+              "value": "モエンサイディング-川"
+            }
+          ],
+          "manufacturer": [
+            {
+              "line": 4,
+              "value": "Examplesupplier"
+            }
+          ],
+          "manufacture_month": [
+            {
+              "line": 5,
+              "value": "2001-09"
+            }
+          ]
+        },
+        "issues": [],
+        "source": {
+          "pdf_sha256": "b69d5e65489f13bdd502b96f4044781bf5228c42eb660b57ee996e2e7e592e5f",
+          "page_number": 1,
+          "coordinate_system": "PDF points; top-left origin",
+          "ocr_result_sha256": "c7c2ad8e721f3e57ff1f87ad7a3b05ccfa350fb7c41cad61855e15094fde75c2",
+          "ocr_image_sha256": "3aa6e734fd72353c69929496d7b581383c3837c30337addc137f52e678b46ed3",
+          "extraction_method": "ocr_labelled_block_rules"
+        },
+        "ocr_evidence": {
+          "engine_info": {
+            "engine": "EasyOCR",
+            "easyocr_version": "1.7.2",
+            "torch_version": "2.14.1+cpu",
+            "python_version": "3.11.17",
+            "languages": [
+              "ja",
+              "en"
+            ],
+            "device": "cpu",
+            "quantize": false,
+            "cpu_threads": 1,
+            "execution": "isolated_process"
+          },
+          "lines": [
+            {
+              "text": "Item:V-104",
+              "detection_ids": [
+                2
+              ]
+            },
+            {
+              "text": "Product: モエンサイディング-川",
+              "detection_ids": [
+                3
+              ]
+            },
+            {
+              "text": "Manufacturer:Examplesupplier",
+              "detection_ids": [
+                4
+              ]
+            },
+            {
+              "text": "Manufacturemonth:2001-09",
+              "detection_ids": [
+                5
+              ]
+            }
+          ],
+          "detections": [
+            {
+              "id": 2,
+              "text": "Item:V-104",
+              "confidence": 0.9802477285222402,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  63.0,
+                  201.0
+                ],
+                [
+                  257.0,
+                  201.0
+                ],
+                [
+                  257.0,
+                  243.0
+                ],
+                [
+                  63.0,
+                  243.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  30.240000000000002,
+                  96.47999999999999
+                ],
+                [
+                  123.36,
+                  96.47999999999999
+                ],
+                [
+                  123.36,
+                  116.64
+                ],
+                [
+                  30.240000000000002,
+                  116.64
+                ]
+              ]
+            },
+            {
+              "id": 3,
+              "text": "Product: モエンサイディング-川",
+              "confidence": 0.7401027076170711,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  63.0,
+                  250.0
+                ],
+                [
+                  588.0,
+                  250.0
+                ],
+                [
+                  588.0,
+                  307.0
+                ],
+                [
+                  63.0,
+                  307.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  30.240000000000002,
+                  120.0
+                ],
+                [
+                  282.24,
+                  120.0
+                ],
+                [
+                  282.24,
+                  147.35999999999999
+                ],
+                [
+                  30.240000000000002,
+                  147.35999999999999
+                ]
+              ]
+            },
+            {
+              "id": 4,
+              "text": "Manufacturer:Examplesupplier",
+              "confidence": 0.9801599207580892,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  64.0,
+                  308.0
+                ],
+                [
+                  616.0,
+                  308.0
+                ],
+                [
+                  616.0,
+                  370.0
+                ],
+                [
+                  64.0,
+                  370.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  30.720000000000002,
+                  147.84
+                ],
+                [
+                  295.68,
+                  147.84
+                ],
+                [
+                  295.68,
+                  177.6
+                ],
+                [
+                  30.720000000000002,
+                  177.6
+                ]
+              ]
+            },
+            {
+              "id": 5,
+              "text": "Manufacturemonth:2001-09",
+              "confidence": 0.9260119475158454,
+              "confidence_scale": "0 to 1; OCR engine score",
+              "polygon_pixels": [
+                [
+                  67.0,
+                  371.0
+                ],
+                [
+                  558.0,
+                  371.0
+                ],
+                [
+                  558.0,
+                  428.0
+                ],
+                [
+                  67.0,
+                  428.0
+                ]
+              ],
+              "polygon_pdf_points": [
+                [
+                  32.160000000000004,
+                  178.07999999999998
+                ],
+                [
+                  267.84000000000003,
+                  178.07999999999998
+                ],
+                [
+                  267.84000000000003,
+                  205.44
+                ],
+                [
+                  32.160000000000004,
+                  205.44
+                ]
+              ]
+            }
+          ]
+        },
+        "decision": {
+          "status": "unresolved",
+          "reason": "no_exact_product_match",
+          "matched_record_id": null,
+          "candidate_record_ids": [],
+          "source_urls": []
+        },
+        "suggestions": []
+      }
+    ]
+  }
+}

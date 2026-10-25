@@ -1,0 +1,300 @@
+{
+  "pdf_sha256": "8080272fc60a91d088b0aab67210d976fd7c1d422fa63af282a92e7d68139710",
+  "page_number": 1,
+  "page_count": 1,
+  "extraction_method": "easyocr",
+  "ocr_used": true,
+  "pdfplumber_version": "0.11.9",
+  "coordinate_system": "PDF points; top-left origin",
+  "page_size_pdf_points": [
+    576.0,
+    230.4
+  ],
+  "text": "Datatype:synthetic\nItem:V-104\nProduct: モエンサイディング-M\nManufacturer: ExampleSupplier\nManufacturemonth:20o1-09",
+  "words": [],
+  "tables": [],
+  "ocr": {
+    "engine_info": {
+      "engine": "EasyOCR",
+      "easyocr_version": "1.7.2",
+      "torch_version": "2.14.1+cpu",
+      "python_version": "3.11.17",
+      "languages": [
+        "ja",
+        "en"
+      ],
+      "device": "cpu",
+      "quantize": false,
+      "cpu_threads": 1,
+      "execution": "isolated_process"
+    },
+    "settings": {
+      "detail": 1,
+      "paragraph": false,
+      "batch_size": 1,
+      "workers": 0,
+      "canvas_size": 1600
+    },
+    "raster": {
+      "image_sha256": "76a83657ba6a67a1daa10a57b7f79138dd3d7b75c409b1b3d5fe02a3ff847a06",
+      "image_size_pixels": [
+        1200,
+        480
+      ],
+      "render_bbox_pdf_points": [
+        0,
+        0.0,
+        576.0,
+        230.4
+      ],
+      "requested_resolution_dpi": 150
+    },
+    "detections": [
+      {
+        "id": 1,
+        "text": "Datatype:synthetic",
+        "confidence": 0.7940198255021558,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            56.0,
+            47.0
+          ],
+          [
+            401.0,
+            47.0
+          ],
+          [
+            401.0,
+            104.0
+          ],
+          [
+            56.0,
+            104.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            26.880000000000003,
+            22.56
+          ],
+          [
+            192.48,
+            22.56
+          ],
+          [
+            192.48,
+            49.92
+          ],
+          [
+            26.880000000000003,
+            49.92
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Item:V-104",
+        "confidence": 0.9784319311443881,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            57.0,
+            171.0
+          ],
+          [
+            251.0,
+            171.0
+          ],
+          [
+            251.0,
+            213.0
+          ],
+          [
+            57.0,
+            213.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.36,
+            82.08
+          ],
+          [
+            120.48,
+            82.08
+          ],
+          [
+            120.48,
+            102.24
+          ],
+          [
+            27.36,
+            102.24
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Product: モエンサイディング-M",
+        "confidence": 0.6911666118775966,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            56.0,
+            234.0
+          ],
+          [
+            580.0,
+            234.0
+          ],
+          [
+            580.0,
+            282.0
+          ],
+          [
+            56.0,
+            282.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            26.880000000000003,
+            112.32
+          ],
+          [
+            278.4,
+            112.32
+          ],
+          [
+            278.4,
+            135.36
+          ],
+          [
+            26.880000000000003,
+            135.36
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Manufacturer: ExampleSupplier",
+        "confidence": 0.7814245568933922,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            58.0,
+            292.0
+          ],
+          [
+            604.0,
+            292.0
+          ],
+          [
+            604.0,
+            345.0
+          ],
+          [
+            58.0,
+            345.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            27.84,
+            140.16
+          ],
+          [
+            289.91999999999996,
+            140.16
+          ],
+          [
+            289.91999999999996,
+            165.6
+          ],
+          [
+            27.84,
+            165.6
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Manufacturemonth:20o1-09",
+        "confidence": 0.5793484869425928,
+        "confidence_scale": "0 to 1; OCR engine score",
+        "polygon_pixels": [
+          [
+            59.0,
+            353.0
+          ],
+          [
+            547.0,
+            353.0
+          ],
+          [
+            547.0,
+            397.0
+          ],
+          [
+            59.0,
+            397.0
+          ]
+        ],
+        "polygon_pdf_points": [
+          [
+            28.32,
+            169.44000000000003
+          ],
+          [
+            262.56,
+            169.44000000000003
+          ],
+          [
+            262.56,
+            190.56
+          ],
+          [
+            28.32,
+            190.56
+          ]
+        ]
+      }
+    ],
+    "lines": [
+      {
+        "text": "Datatype:synthetic",
+        "detection_ids": [
+          1
+        ]
+      },
+      {
+        "text": "Item:V-104",
+        "detection_ids": [
+          2
+        ]
+      },
+      {
+        "text": "Product: モエンサイディング-M",
+        "detection_ids": [
+          3
+        ]
+      },
+      {
+        "text": "Manufacturer: ExampleSupplier",
+        "detection_ids": [
+          4
+        ]
+      },
+      {
+        "text": "Manufacturemonth:20o1-09",
+        "detection_ids": [
+          5
+        ]
+      }
+    ],
+    "result_sha256": "6ed98afd344834cae1409ad018af8500d364b56cec5ef1dd19aaf221eda53836",
+    "inference_seconds": 7.769,
+    "layout_scope": "labelled item blocks; scanned tables not reconstructed"
+  }
+}
