@@ -5,6 +5,7 @@ from pathlib import Path
 
 import streamlit as st
 
+from demo_assets import demo_asset
 from pdf_processing import inspect_pdf_page, pdf_page_count
 from pdf_candidates import build_pdf_candidates, match_pdf_candidate
 from ocr_worker import run_isolated_ocr
@@ -42,17 +43,19 @@ source = st.segmented_control(
 )
 
 if source == "Project example":
-    path = ROOT / "data/raw/kmew_reference.pdf"
-    if not path.exists():
-        st.info("The project example is unavailable. Upload a PDF to continue.")
+    try:
+        path = demo_asset(ROOT, "kmew_pdf")
+    except (OSError, KeyError, ValueError) as error:
+        st.error(f"Could not load the bundled PDF example: {error}")
         st.stop()
     content = path.read_bytes()
     filename = "KMEW manufacturer reference"
     origin = "project_example"
 elif source == "Scanned schedule example":
-    path = ROOT / "data/raw/synthetic_schedule_scan.pdf"
-    if not path.exists():
-        st.info("Run python create_scan_example.py to prepare this synthetic example.")
+    try:
+        path = demo_asset(ROOT, "synthetic_scan")
+    except (OSError, KeyError, ValueError) as error:
+        st.error(f"Could not load the bundled scanned example: {error}")
         st.stop()
     content = path.read_bytes()
     filename = "Synthetic schedule scan"

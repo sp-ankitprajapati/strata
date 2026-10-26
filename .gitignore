@@ -7,3 +7,7 @@ data/processed/
 .models/
 .venv-app/
 data/reviews/
+.venv-demo/
+.venv-repro/
+/core
+/core.[0-9]*

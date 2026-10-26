@@ -1,0 +1,36 @@
+{
+  "manifest_version": 1,
+  "assets": {
+    "kmew_pdf": {
+      "repo_path": "assets/demo/kmew_reference.pdf",
+      "sha256": "c9b1950f329d4c7d3e7a9f595d3aad3497ad944809971b47b91114122dda8fe9",
+      "data_kind": "real_manufacturer_reference_document",
+      "source_url": "https://www.kmew.co.jp/kenkai/syoumeisyo.php",
+      "retrieved_at_utc": "2026-10-25T11:57:30.728173+00:00",
+      "evidence_record": "reports/reference_extraction/evidence/inspection.json"
+    },
+    "drawing_crop": {
+      "repo_path": "assets/demo/drawing_crop.png",
+      "sha256": "58f95f8bd52e380b52de44a945a88b51e324eebb5c8bcf2d329dfed4ae7c93f0",
+      "data_kind": "real_drawing_crop",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Old_State_Capitol_Building%2C_Markham_and_Center_Streets%2C_Little_Rock%2C_Pulaski_County%2C_AR_HABS_ARK%2C60-LIRO%2C1-_%28sheet_14_of_27%29.png",
+      "crop_box_in_source_pixels": [
+        2329,
+        2378,
+        6987,
+        5708
+      ],
+      "source_size_pixels": [
+        9316,
+        7136
+      ],
+      "asbestos_status": "not_established"
+    },
+    "synthetic_scan": {
+      "repo_path": "reports/scanned_pdf/evidence/synthetic_schedule_scan.pdf",
+      "sha256": "fdc21572c6367e5567a5e87d7b5eb31e4efd9710fe1afd67e33766750fdfa6c8",
+      "data_kind": "synthetic_schedule_scan",
+      "evidence_record": "reports/scanned_pdf/decisions_cpu.json"
+    }
+  }
+}

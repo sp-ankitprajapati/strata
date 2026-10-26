@@ -3,6 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 from PIL import Image, ImageDraw
+from demo_assets import demo_asset
 
 import hashlib
 import sqlite3
@@ -25,10 +26,10 @@ def load_report(mode):
 
 
 def show_drawing_context(query):
-    path = ROOT / "data" / "processed" / "drawing_crop.png"
-
-    if not path.exists():
-        st.info("The drawing image is unavailable in this workspace.")
+    try:
+        path = demo_asset(ROOT, "drawing_crop")
+    except (OSError, KeyError, ValueError) as error:
+        st.error(f"Could not load the bundled drawing example: {error}")
         return
 
     box = query.get("box_in_crop")
