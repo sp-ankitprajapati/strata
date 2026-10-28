@@ -47,4 +47,4 @@ Preserve the frozen predictions and raw OCR strings. Route malformed dates and u
 
 Potential extensions include deskewing and field-specific English recognition for Latin suffixes, evaluated as separate experiments. No global `o` to `0` replacement or automatic `川` to `M` substitution was added to the matcher.
 
-Next work is reproducible setup and project packaging, followed by consolidated documentation, presentation and CV wording. Scanned-table reconstruction and OCR fine-tuning remain unimplemented extensions.
+Further evaluation should broaden independent-document coverage and reference records. Scanned-table reconstruction and OCR fine-tuning remain unimplemented extensions.

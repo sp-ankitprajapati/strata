@@ -31,4 +31,4 @@ The Process PDF page currently uses native PDF extraction and supported layout r
 
 The active reference catalogue remains small. KMEW extraction candidates have not been approved as active matching records. Reviewer names are self-reported, and workspace SQLite storage is not an authenticated or tamper-proof audit service.
 
-Further independent-document evaluation, reproducible setup, the consolidated project report, presentation and CV description remain to be completed. Existing OCR experiments use pretrained models; model fine-tuning has not been performed.
+Further independent-document evaluation remains necessary. Existing OCR experiments use pretrained models; model fine-tuning has not been performed.

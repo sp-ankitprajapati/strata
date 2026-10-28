@@ -11,3 +11,8 @@ data/reviews/
 .venv-repro/
 /core
 /core.[0-9]*
+
+# Personal study materials
+/study-notes/
+/docs/*HINGLISH*.md
+/docs/practice_basics.py
