@@ -1,0 +1,7 @@
+usage: validate_pipeline.py [-h] (--prepare | --run) [--font FONT]
+
+options:
+  -h, --help   show this help message and exit
+  --prepare
+  --run
+  --font FONT

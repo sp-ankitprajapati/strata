@@ -10,7 +10,7 @@ from io import BytesIO
 import pdfplumber
 from PIL import Image
 
-from evaluate_schedule_ocr import reconstruct_lines
+from ocr_layout import reconstruct_lines
 from pdf_processing import validate_pdf_bytes
 
 

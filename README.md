@@ -102,6 +102,19 @@ python -m unittest discover -v
 python check_demo.py
 ```
 
+The unit suite contains **50 tests**, collected from [`tests/`](tests/). The
+repository-layout verification and the actual test output are recorded in
+[`docs/verification/README.md`](docs/verification/README.md). These software checks
+are separate from the OCR-quality measurements above.
+
+Recorded cleanup run:
+
+```text
+Ran 50 tests in 0.592s
+
+OK
+```
+
 `check_demo.py` copies the application and bundled examples into a temporary snapshot with no raw data, processed data, model cache or review history. It checks the saved-review and native-PDF pages, verifies 39 native example entries, and checks that the scanned example has no selectable text. It does not run live OCR.
 
 To check live OCR separately after model setup:
@@ -110,7 +123,14 @@ To check live OCR separately after model setup:
 python -u ocr_worker.py --pdf reports/scanned_pdf/evidence/synthetic_schedule_scan.pdf --page 1 --output data/processed/repro_scan.json
 ```
 
-The existing stress-suite inputs, predictions and metrics are frozen in `reports/validation_suite/`. `python validate_pipeline.py --run` reuses compatible completed predictions and retries failed cases. Reusing those results is a replay of the archived evaluation, rather than a new OCR benchmark. Preserve the frozen evidence when conducting another experiment.
+The existing stress-suite inputs, predictions and metrics are frozen in
+`reports/validation_suite/`. The experiment entry point is now
+`python -m experiments.validate_pipeline --help`; see the
+[experiment guide](experiments/README.md) before running it. Its source-fingerprint
+check intentionally rejects archived results from a different code layout. Do not
+edit old fingerprints to make them pass. Inspect the archived evidence directly,
+or use its recorded historical checkout for an exact replay. Keep new experiments
+separate from those frozen results.
 
 ## Project map
 
@@ -118,13 +138,22 @@ The existing stress-suite inputs, predictions and metrics are frozen in `reports
 |---|---|
 | `streamlit_app.py`, `app_pages/` | Navigation and user interface |
 | `demo_assets.py`, `assets/demo/` | Bundled-example integrity and provenance |
-| `pdf_processing.py`, `pdf_ocr.py`, `ocr_worker.py` | Native extraction, raster/OCR evidence and isolated execution |
+| `pdf_processing.py`, `pdf_ocr.py`, `ocr_layout.py`, `ocr_worker.py` | Native extraction, shared line reconstruction, raster/OCR evidence and isolated execution |
 | `extract_schedule.py`, `extract_reference_candidates.py`, `pdf_candidates.py` | Supported field and table extraction rules |
 | `material_matcher.py`, `material_review.py` | Exact reference decisions and review suggestions |
 | `pdf_review.py`, `review_history.py` | Review identity, evidence and SQLite persistence |
-| `validate_pipeline.py`, `test_*.py`, `reports/` | Development evaluation, unit checks and frozen evidence |
+| [`tests/`](tests/) | Unit checks; discover with `python -m unittest discover -v` |
+| [`experiments/`](experiments/) | Earlier drawing, table and scan-evaluation research; run as modules |
+| [`scripts/`](scripts/) | Author-side asset preparation and checkpoint capture |
+| `reports/`, `docs/verification/` | Frozen research evidence and recorded software verification |
 
-Other root scripts preserve the earlier experiments. `package_demo.py` is the author-side capture helper; ordinary fresh setups use the bundled assets.
+The root keeps the application modules and the everyday launch/check commands.
+Earlier experiments live under `experiments/`; this keeps their optional model,
+GPU and raw-data requirements separate from the demo. The shared OCR line-layout
+helper is in `ocr_layout.py`, so the app does not import an experiment runner.
+`python -m scripts.package_demo` is the author-side capture helper; ordinary fresh
+setups use the bundled assets. The [layout guide](docs/repository_layout.md) maps the
+old script locations to the new commands, including Kaggle usage.
 
 ## Current limits
 

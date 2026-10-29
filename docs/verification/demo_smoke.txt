@@ -1,0 +1,12 @@
+2026-10-29 22:40:50.329 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+CHECK: Saved reviews / Drawing OCR
+  Exceptions: []
+  Displayed error messages: []
+CHECK: Saved reviews / Synthetic examples
+  Exceptions: []
+  Displayed error messages: ['Reference status: asbestos-containing']
+CHECK: Process PDF / Project example
+  Exceptions: []
+  Displayed error messages: []
+PASS: saved reviews and native PDF page loaded; 39 entries; image-only scan verified.
+PASS: no ignored workspace data or model cache was required; live OCR was not run.
