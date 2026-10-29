@@ -1,0 +1,5 @@
+usage: run_matching.py [-h] --mode {demo,drawing}
+
+options:
+  -h, --help            show this help message and exit
+  --mode {demo,drawing}
